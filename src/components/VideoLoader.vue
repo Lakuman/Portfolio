@@ -1,14 +1,24 @@
 <template>
-  <div class="hover-video flex-col" @mouseenter="playVideo">
-    <!-- Titre paramétrable -->
-    <h2 v-if="title" class="video-title">{{ title }}</h2>
+  <div
+    class="hover-video flex-col"
+    @mouseenter="playVideo"
+    @mouseleave="stopVideo"
+  >
+    <!-- Image de fond -->
+    <img
+      v-if="backgroundImage"
+      :src="backgroundImage"
+      alt="Video Background"
+      class="video-background"
+      ref="backgroundRef"
+    />
     <!-- Vidéo locale -->
-    <video 
-      ref="videoRef" 
-      :src="`/videos/${videoUrl}`" 
-      class="video-element" 
-      muted 
-      loop 
+    <video
+      ref="videoRef"
+      :src="`/videos/${videoUrl}`"
+      class="video-element"
+      muted
+      loop
       playsinline
     ></video>
   </div>
@@ -17,59 +27,69 @@
 <script setup>
 import { ref } from 'vue';
 
-// Props pour configurer la vidéo et le titre
+// Props pour configurer la vidéo et l'image de fond
 defineProps({
   videoUrl: {
     type: String,
-    required: true, // Chemin de la vidéo (dans le dossier public/videos)
+    required: true,
   },
-  title: {
+  backgroundImage: {
     type: String,
-    required: false, // Titre au-dessus de la vidéo
-    default: '', // Par défaut, aucun titre
+    required: false, // L'image de fond est optionnelle
+    default: '', // Par défaut, aucune image de fond
   },
 });
 
-const videoRef = ref(null); // Référence à l'élément vidéo
+// Références pour la vidéo et l'image de fond
+const videoRef = ref(null);
+const backgroundRef = ref(null);
 
-// Méthode pour jouer la vidéo
+// Méthode pour jouer la vidéo et masquer l'image
 const playVideo = () => {
   if (videoRef.value) {
     videoRef.value.play();
-    // Fixe l'opacité de la vidéo à 1 pour qu'elle reste affichée
-    videoRef.value.style.opacity = "1";
+    videoRef.value.classList.add("playing"); // Ajoute une classe pour rendre la vidéo visible
+    if (backgroundRef.value) {
+      backgroundRef.value.style.opacity = "0"; // Masque l'image de fond
+    }
   }
+};
+
+// Méthode pour réafficher l'image et stopper la vidéo
+const stopVideo = () => {
 };
 </script>
 
 <style scoped>
 .hover-video {
-  width: 100%; /* Largeur de la zone */
-  height: auto; /* Hauteur automatique */
-  overflow: hidden;
+  position: relative;
+  width: 100%; /* Largeur adaptative */
+  max-width: 800px; /* Largeur maximale */
+  aspect-ratio: 16 / 9; /* Conserve le ratio 16:9 */
+  background-color: #0c3d3a; /* Couleur de fond */
+  border-radius: 20px; /* Bords arrondis */
+  overflow: hidden; /* Cache les débordements */
+  margin: auto; /* Centrage horizontal */
 }
-
-.video-title {
-  margin-bottom: 10px; /* Espacement entre le titre et la vidéo */
-  font-size: 1.5rem; /* Taille de la police */
-  text-align: center; /* Centrage du titre */
-  color: #80d6ab; /* Couleur du titre */
+.video-background {
+  z-index: 2;
 }
-
-.video-element {
+.video-element,
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  object-fit: cover; /* Remplissage sans déformation */
-  opacity: 0; /* Initialement masquée */
-  transition: opacity 0.3s ease-in-out;
+  height: 100%; /* Forcer à remplir tout le conteneur */
+  object-fit: cover; /* Remplir le conteneur sans déformer */
+  border-radius: 15px; /* Bords arrondis */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Ombre douce */
+  transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.hover-video:hover .video-element {
-  opacity: 1; /* La vidéo devient visible au survol */
-}
-
-/* Forcer l'opacité une fois jouée */
+/* La vidéo reste visible une fois jouée */
 .video-element.playing {
-  opacity: 1 !important;
+  opacity: 1;
 }
+
 </style>

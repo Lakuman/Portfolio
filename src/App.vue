@@ -7,10 +7,15 @@
     <div id="intro">
       <Intro />
     </div>
-    <div id="cards" class="flex-col pad-32 gap-32">
-      <H1><strong>Projects</strong></H1> 
+    <div id="cards" class="flex-col pad-32 gap-64">
+      <div class="align flex" style="font-size: 32px; font-weight: bold; text-align : left;">Projects</div>
       <ProjectBrokenAlchemy/>
       <ProjectSaltenpepper/>
+      <ProjectAxeoBIM/>
+      <ProjectAntarcticaOrigins/>
+      <Skills/>
+      <Coworkers/>
+      <Hobbies/>
     </div>
     <div id="contactform" >
       <ContactForm />
@@ -20,9 +25,14 @@
 
 <script lang="ts">
   import '@/sass/base.scss';
-  import ProjectBrokenAlchemy from "@/components/ProjectBrokenAlchemy.vue";
-  import ProjectSaltenpepper from "@/components/ProjectSaltenpepper.vue";
+  import ProjectBrokenAlchemy from "@/components/Projects/ProjectBrokenAlchemy.vue";
+  import ProjectSaltenpepper from "@/components/Projects/ProjectSaltenpepper.vue";
+  import ProjectAxeoBIM from "@/components/Projects/ProjectAxeoBIM.vue";
+  import Skills from "@/components/Skills.vue";
+  import ProjectAntarcticaOrigins from "@/components/Projects/ProjectAntarcticaOrigins.vue";
   import Intro from "@/components/Intro.vue";
+  import Coworkers from "@/components/Coworkers.vue";
+  import Hobbies from "@/components/HobbiesInterest.vue";
   import ContactForm from "@/components/ContactForm.vue";
 
   export default {
@@ -30,7 +40,12 @@
     components: {
       ProjectSaltenpepper,
       ProjectBrokenAlchemy,
+      ProjectAxeoBIM,
+      ProjectAntarcticaOrigins,
       Intro,
+      Skills,
+      Coworkers,
+      Hobbies,
       ContactForm,
     },
   };
@@ -44,7 +59,7 @@
   #intro{
     z-index: 1; /* Toujours au-dessus du contenu */
   }
-  #all {    
+  #all {
     background-color: #041e22;
   }
   .svg-top-right {

@@ -1,20 +1,13 @@
 <template>
-  <div class="expandable-row" @mouseenter="handleMouseEnter">
-    <!-- Ligne d'en-tête avec l'icône avant et la flèche après -->
-    <div class="row-header">
-      <!-- Icône avant le texte -->
-      <span v-if="iconBefore" class="icon-before">
+  <div class="select">
+    <div class="flex align row-header" @click="toggleExpand">
+      <div v-if="iconBefore" class="flex icon-before">
         <img :src="iconBefore" alt="icon before" />
-      </span>
-
-      <!-- Texte -->
-      <span class="text">{{ text }}</span>
-
-      <!-- Flèche après le texte (change de direction selon l'état) -->
-      <span :class="{'arrow-right': isExpanded, 'arrow-down': !isExpanded}" class="arrow"></span>
+      </div>
+      <div class="text">{{ text }}</div>
+      <div :class="{'arrow-down': isExpanded, 'arrow-right': !isExpanded}" class="arrow"></div>
     </div>
 
-    <!-- Contenu qui se déplie avec effet de glissement -->
     <transition name="expand-transition" @before-enter="beforeEnter" @enter="enter" @leave="leave">
       <div v-if="isExpanded" class="content">
         <slot />
@@ -25,7 +18,7 @@
 
 <script>
 export default {
-  name: "ExpandableRow",
+  name: "Select",
   props: {
     text: {
       type: String,
@@ -37,43 +30,41 @@ export default {
     },
     delay: {
       type: Number,
-      default: 300, // Durée de l'animation
+      default: 300,
     },
-    activeIndex: {
+    index: {
       type: Number,
       required: true,
     },
-    index: {
+    activeIndex: {
       type: Number,
       required: true,
     },
   },
   computed: {
     isExpanded() {
-      // Vérifie si cet élément est l'élément actif
       return this.activeIndex === this.index;
     },
   },
   methods: {
-    handleMouseEnter() {
-      // Émet un événement pour mettre à jour l'index actif
-      this.$emit("update:activeIndex", this.index);
+    toggleExpand() {
+      this.$emit("update:activeIndex", this.isExpanded ? null : this.index);
     },
     beforeEnter(el) {
       el.style.height = "0";
-      el.style.opacity = 0;
+      el.style.opacity = "0";
     },
     enter(el, done) {
-      el.offsetHeight; // Déclenche le reflow
+      el.offsetHeight; // Reflow
       el.style.transition = `height ${this.delay}ms ease-out, opacity ${this.delay}ms ease-out`;
       el.style.height = `${el.scrollHeight}px`;
-      el.style.opacity = 1;
+      el.style.opacity = "1";
       done();
     },
     leave(el, done) {
       el.style.transition = `height ${this.delay}ms ease-in, opacity ${this.delay}ms ease-in`;
       el.style.height = "0";
-      el.style.opacity = 0;
+      el.style.opacity = "0";
       done();
     },
   },
@@ -81,17 +72,15 @@ export default {
 </script>
 
 <style scoped>
-.expandable-row {
-  border-bottom: 2px solid #366c5e;
+.select {
   overflow: hidden;
 }
 
 .row-header {
   display: flex;
+  border-bottom: 2px solid #366c5e;
   align-items: center;
   padding: 12px;
-  min-width: 400px;
-  background-color: #112a29;
   color: #b3d4c5;
   cursor: pointer;
 }
@@ -124,8 +113,8 @@ export default {
 
 .content {
   padding: 12px;
-  background-color: #1d4d4f;
   color: #e0f7f1;
   overflow: hidden;
+  border-bottom: 2px solid #366c5e;
 }
 </style>

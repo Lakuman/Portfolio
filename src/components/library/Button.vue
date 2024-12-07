@@ -12,7 +12,7 @@
       </span>
     </button>
   </template>
-  
+
   <script>
   export default {
     name: "Button",
@@ -37,14 +37,14 @@
     },
   };
   </script>
-  
+
   <style scoped>
   /* Style de base du bouton */
   .btn {
     background-color: #294b46;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 16px;
     font-size: 16px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     border-radius: 5px;
@@ -55,28 +55,27 @@
     gap: 8px; /* Espacement entre icône et texte */
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
   }
-  
+
   /* Effet au survol */
   .btn:hover {
     background-color: #3b625b;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   }
-  
+
   /* Icône */
   .btn-icon img.icon {
     width: 20px;
     height: 20px;
   }
-  
+
   /* Texte du bouton */
   .btn-text {
     line-height: 1.5;
   }
-  
+
   /* Désactivé */
   .btn:disabled {
     background-color: #7a7a7a;
     cursor: not-allowed;
   }
   </style>
-  

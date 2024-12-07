@@ -1,85 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-$sides: ('top', 'right', 'bottom', 'left');
-html, body {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+$sides: ("top", "right", "bottom", "left");
+html,
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 .flex {
-    display: flex !important;
-    flex-wrap: wrap;
-    flex-direction: row !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  flex-direction: row !important;
 }
 
-
 .flex-col {
-    display: flex !important;
-    flex-direction: column !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .align {
-    @extend .flex; 
-    align-items: center !important;
+  @extend .flex;
+  align-items: center !important;
 }
 
 @for $var from 1 through 200 {
-    .pad-#{$var} {
-        padding: #{$var}px;
+  .pad-#{$var} {
+    padding: #{$var}px;
+  }
+  .pad-x-#{$var} {
+    padding-right: #{$var}px;
+    padding-left: #{$var}px;
+  }
+  .pad-y-#{$var} {
+    padding-top: #{$var}px;
+    padding-bottom: #{$var}px;
+  }
+  @each $side in $sides {
+    .pad-#{$side}-#{$var} {
+      padding-#{$side}: #{$var}px;
     }
-    .pad-x-#{$var} {
-        padding-right: #{$var}px;
-        padding-left: #{$var}px;
-    }
-    .pad-y-#{$var} {
-        padding-top: #{$var}px;
-        padding-bottom: #{$var}px;
-    }
-    @each $side in $sides {
-        .pad-#{$side}-#{$var} {
-            padding-#{$side}: #{$var}px;
-        }
-    }
+  }
 }
 
 @mixin border() {
-    @each $color-name, $color-value in $colors {
-        .border-#{$color-name} {
-            border: 1px solid $color-value;
-        }
-        .border-#{$color-name}-rd-full {
-            border: 1px solid $color-value;
-            border-radius: 100%;
-        }
-        @each $side in $sides {
-            .border-#{$side}-#{$color-name} {
-                border-#{$side}: 1px solid $color-value !important;
-            }
-            @for $var from 0 through 5 {
-                .border-#{$side}-#{$color-name}-#{$var} {
-                    border-#{$side}: #{$var}px solid $color-value !important;
-                }
-            }
-        }
-        @for $var from 0 through 50 {
-            .border-#{$color-name}-rd-#{$var} {
-                border: 1px solid $color-value;
-                border-radius: #{$var}px;
-            }
-        }
-        @for $var from 0 through 5 {
-            .border-#{$color-name}-#{$var} {
-                border: #{$var}px solid $color-value;
-            }
-        }
+  @each $color-name, $color-value in $colors {
+    .border-#{$color-name} {
+      border: 1px solid $color-value;
     }
+    .border-#{$color-name}-rd-full {
+      border: 1px solid $color-value;
+      border-radius: 100%;
+    }
+    @each $side in $sides {
+      .border-#{$side}-#{$color-name} {
+        border-#{$side}: 1px solid $color-value !important;
+      }
+      @for $var from 0 through 5 {
+        .border-#{$side}-#{$color-name}-#{$var} {
+          border-#{$side}: #{$var}px solid $color-value !important;
+        }
+      }
+    }
+    @for $var from 0 through 50 {
+      .border-#{$color-name}-rd-#{$var} {
+        border: 1px solid $color-value;
+        border-radius: #{$var}px;
+      }
+    }
+    @for $var from 0 through 5 {
+      .border-#{$color-name}-#{$var} {
+        border: #{$var}px solid $color-value;
+      }
+    }
+  }
 }
 
 @for $var from 1 through 100 {
-    .gap-#{$var} {
-        @extend .flex;
-        gap: $var + px;
-    }
+  .gap-#{$var} {
+    @extend .flex;
+    gap: $var + px;
+  }
 }
 
-.button-logo{
-    height:24px;
-    background-color: white;
+.button-logo {
+  height: 32px;
 }
