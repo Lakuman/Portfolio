@@ -66,7 +66,7 @@ const stopVideo = () => {
   width: 100%; /* Largeur adaptative */
   max-width: 800px; /* Largeur maximale */
   aspect-ratio: 16 / 9; /* Conserve le ratio 16:9 */
-  background-color: #0c3d3a; /* Couleur de fond */
+  background-color: transparent; /* Couleur de fond */
   border-radius: 20px; /* Bords arrondis */
   overflow: hidden; /* Cache les débordements */
   margin: auto; /* Centrage horizontal */

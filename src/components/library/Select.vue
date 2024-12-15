@@ -73,6 +73,7 @@ export default {
 
 <style scoped>
 .select {
+  width:500px;
   overflow: hidden;
 }
 
@@ -94,7 +95,7 @@ export default {
 }
 
 .arrow {
-  margin-left: auto;
+  margin-left: 50px;
   transition: transform 0.3s ease;
   display: inline-block;
   width: 10px;

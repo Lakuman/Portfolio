@@ -1,13 +1,13 @@
 <template>
-    <div class="intro flex align gap-32">
-      <div class="flex-col gap-16 gap-32" style="max-width: 500px; min-width: 300px;">
+    <div class="parent intro">
+      <div class="flex-col gap-16 gap-32">
         <div class="flex gap-16">
           <div class="align flex line-container"></div>
           <div class="align flex" style="font-size: 24px;">Adrien Roussel</div>
         </div>
         <div class="align flex" style="font-size: 32px; font-weight: bold; text-align : left;">Game & Web developer based in Lyon</div>
         <div class="flex-col gap-32">
-          <div class="flex-col gap-16">
+          <div class="flex-col gap-16" style="max-width: 600px;">
             <span style="text-align: left;">
               Over the past six years, I have honed and strengthened my programming skills, refined my agile working methodology, and developed strong teamwork and communication abilities. These experiences have prepared me to seamlessly integrate into any development team, regardless of its size or focus. My dual expertise as a Game and Web Developer provides me with exceptional versatility in the field.
             </span>
@@ -18,14 +18,13 @@
           <div class="flex gap-16">
             <Button class="flex" @click="handleDownloadCV">
               <span class="align flex gap-8">
-                <img src="/images/icons/cv.svg" alt="Logo" class="button-logo" />
-                <slot>Download my CV</slot>
+                <slot>Download my resume</slot>
               </span>
             </Button>
             <Button class="flex" @click="handleConnect">
               <span class="align flex gap-16">
                 <img src="/images/icons/linkedin-logo.svg" alt="Logo" class="button-logo" />
-                <slot>Connect !</slot>
+                <slot>Let's Connect !</slot>
               </span>
             </Button>
           </div>
@@ -54,10 +53,10 @@
         window.open(url, "_blank");
       },
       handleDownloadCV(){
-        const filePath = "/cv/cv.svg"; // Chemin relatif depuis le dossier public
+        const filePath = "/cv/cv.pdf"; // Chemin relatif depuis le dossier public
         const link = document.createElement("a");
         link.href = filePath; // URL du fichier
-        link.download = "cv.svg"; // Nom du fichier téléchargé
+        link.download = "cv.pdf"; // Nom du fichier téléchargé
         link.click();
       },
     },
@@ -66,9 +65,6 @@
 
   <style scoped>
   @import url('https://fonts.googleapis.com/css2?family=Denk+One&display=swap" rel="stylesheet"');
-  .intro{
-    max-width: 1160px;
-  }
   .line-container {
       margin-top: 20px;
       width: 75px; /* Largeur de la div */
@@ -76,9 +72,8 @@
       background-color: #f0f0f0; /* Fond pour voir l'espace */
     }
   .pp {
-    overflow: hidden;
-    height: 565px;
-    width: 400px;
+    height: 465px;
+    max-width: 400px;
     border-radius: 5%; /* Bords arrondis */
     overflow: hidden; /* Masque tout ce qui dépasse */
     box-shadow:
@@ -94,5 +89,9 @@
       width: 100%;
       height: 100%;
       object-fit: cover; /* Adapte l'image au conteneur sans déformation */
+  }
+  .intro{
+    z-index: 2;
+    width: 57%;
   }
   </style>

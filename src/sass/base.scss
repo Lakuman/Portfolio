@@ -12,12 +12,19 @@ body {
 
 .flex-col {
   display: flex !important;
+  flex-wrap: wrap;
   flex-direction: column !important;
 }
 
 .align {
   @extend .flex;
   align-items: center !important;
+}
+
+.no-overflow {
+  max-width: 100%;
+  overflow-wrap: break-word; // Forcer les mots longs à se couper
+  word-wrap: break-word;     // Compatibilité supplémentaire
 }
 
 @for $var from 1 through 200 {
@@ -81,4 +88,9 @@ body {
 
 .button-logo {
   height: 32px;
+}
+.parent {
+  @extend .flex, .align, .gap-32;
+  flex-direction: column;
+  justify-content: center;
 }

@@ -1,6 +1,6 @@
 <template>
     <div class="flex align project gap-32 pad-32">
-      <div class="flex-col gap-16">
+      <div class="flex-col gap-32">
         <div style="font-size: 24px; font-weight: bold; text-align : left;">Saltenpepper</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
@@ -10,11 +10,10 @@
           </div>
           <span style="font-weight: bold;">Role : Lead Developer</span>
         </div>
-        <div class="flex gap-32">
-          <div class="flex-col align" style="width:500px; height: 375px;">
+        <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
+          <div class="flex-col" style="max-width:500px; height: 400px;">
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Game Design et Programmation"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
@@ -34,7 +33,6 @@
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Collaborative Contributions"
               icon="/icons/game-design.png"
               :delay="300"
@@ -50,7 +48,6 @@
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Additional Skills Acquired"
               icon="/icons/game-design.png"
               :delay="300"
@@ -67,7 +64,7 @@
               </div>
             </Select>
           </div>
-          <div  class="flex pad-left-16">
+          <div class="flex pad-top-16">
             <VideoLoader backgroundImage="/images/SaltenpepperBackground.png" style="width: 420px; height: 250px" title="Patreon video" videoUrl="patreon_snp.mp4" />
           </div>
       </div>
@@ -105,8 +102,8 @@ export default {
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid #0C3D3A;
-    border-radius: 20px;
-    max-width: 1050px;
+    border-radius: 20px;    
+    width: 57%;
     background-color: #051D1F;
   }
   </style>

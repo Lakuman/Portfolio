@@ -1,20 +1,18 @@
 <template>
     <div class="flex align project gap-32 pad-32">
-      <div class="flex-col gap-16">
+      <div class="flex-col gap-32">
         <div style="font-size: 24px; font-weight: bold; text-align : left;">Broken Alchemy</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
-            <span> An Android video game developed in partnership with talented illustrators Gautier Filliard and Eugénie Vallier. Broken Alchemy is a humorous visual novel where you play Alan Bique, an alchemist tasked with taking over his master’s alchemy shop.       </span>
-            <span> We chose to develop this project because it allowed us to leverage each team member's individual skills to create a project quickly, efficiently, and within a reasonable budget. Gautier Filliard came up with the idea of a card game set in a potion-themed universe, which we later transformed into a visual novel.
-            </span>
+            <span> An Android video game developed in partnership with talented illustrators Gautier Filliard and Eugénie Vallier. Broken Alchemy is a humorous visual novel where you play Alan Bique, an alchemist tasked with taking over his master’s alchemy shop.</span>
+            <span> We chose to develop this project because it allowed us to leverage each team member's individual skills to create a project quickly, efficiently, and within a reasonable budget. Gautier Filliard came up with the idea of a card game set in a potion-themed universe, which we later transformed into a visual novel.</span>
           </div>
           <span style="font-weight: bold;">Role : Technical Developer / Sound Designer / Product Manager</span>
         </div>
-        <div class="flex gap-32">
-          <div class="flex-col" style="width:500px; height: 350px;">
+        <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
+          <div class="flex-col" style="max-width:500px; height: 350px;">
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Game Design et Programmation"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
@@ -22,22 +20,22 @@
               :activeIndex="activeIndex"
               @update:activeIndex="updateActiveIndex"
             >
-              <div class="flex-col">
-                <span>Système de dialogue et sauvegarde des choix</span>
-                <span>Loot d'objets</span>
-                <div>Intégration d'interface :
-                  <ul>
-                    <li>Stockage des objets</li>
-                    <li>Options du jeu (Sons et Langues)</li>
-                    <li>Récompenses</li>
-                    <li>Mini jeu de création de potion</li>
-                  </ul>
-                </div>
+            <div class="flex-col">
+              <span>Dialogue system and choice saving</span>
+              <span>Loot items</span>
+              <div>Interface integration:
+                <ul>
+                  <li>Item storage</li>
+                  <li>Game options (Sound and Language)</li>
+                  <li>Rewards</li>
+                  <li>Potion crafting mini-game</li>
+                </ul>
               </div>
+            </div>
+
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Sound Design & Writing"
               iconBefore="/images/icons/microphone-icon.svg"
               :delay="300"
@@ -54,7 +52,6 @@
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Additional Skills Acquired"
               iconBefore="/images/icons/pen-icon.svg"
               :delay="300"
@@ -70,7 +67,7 @@
               </div>
             </Select>
           </div>
-        <div class="flex pad-left-16">
+        <div class="flex pad-top-16">
           <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" style="width: 420px; height: 250px" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
         </div>
         </div>
@@ -105,7 +102,7 @@ export default {
     z-index: 1;
     border: 2px solid #0C3D3A;
     border-radius: 20px;
-    max-width: 1050px;
+    width: 57%;
     background-color: #051D1F;
   }
   .project:before{content: ""; /* Nécessaire pour le pseudo-élément */

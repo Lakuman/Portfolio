@@ -1,35 +1,23 @@
 
 <template>
-  <div class="flex-col align pad-top-64" id="all">
+  <div class="parent flex pad-top-64 pad-bottom-64 gap-32"> 
     <div class="svg-top-right">
         <img src="/images/lumos.svg" alt="Lumos SVG" />
     </div>
-    <div id="intro">
-      <Intro />
-    </div>
-    <div id="cards" class="flex-col pad-32 gap-64">
-      <div class="align flex" style="font-size: 32px; font-weight: bold; text-align : left;">Projects</div>
-      <ProjectBrokenAlchemy/>
-      <ProjectSaltenpepper/>
-      <ProjectAxeoBIM/>
-      <ProjectAntarcticaOrigins/>
-      <Skills/>
-      <Coworkers/>
-      <Hobbies/>
-    </div>
-    <div id="contactform" >
-      <ContactForm />
-    </div>
+    <Intro/>
+    <Projects/>
+    <Skills/>
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Coworkers</div>
+    <Coworkers/>
+    <Hobbies/>
+    <ContactForm />
   </div>
 </template>
 
 <script lang="ts">
   import '@/sass/base.scss';
-  import ProjectBrokenAlchemy from "@/components/Projects/ProjectBrokenAlchemy.vue";
-  import ProjectSaltenpepper from "@/components/Projects/ProjectSaltenpepper.vue";
-  import ProjectAxeoBIM from "@/components/Projects/ProjectAxeoBIM.vue";
+  import Projects from "@/components/Projects.vue";
   import Skills from "@/components/Skills.vue";
-  import ProjectAntarcticaOrigins from "@/components/Projects/ProjectAntarcticaOrigins.vue";
   import Intro from "@/components/Intro.vue";
   import Coworkers from "@/components/Coworkers.vue";
   import Hobbies from "@/components/HobbiesInterest.vue";
@@ -38,11 +26,8 @@
   export default {
     name: "App",
     components: {
-      ProjectSaltenpepper,
-      ProjectBrokenAlchemy,
-      ProjectAxeoBIM,
-      ProjectAntarcticaOrigins,
       Intro,
+      Projects,
       Skills,
       Coworkers,
       Hobbies,
@@ -52,15 +37,27 @@
 </script>
 
 <style scoped>
-  #contactform{
-    width: 1000px;
-    z-index: -1; /* Toujours au-dessus du contenu */
-  }
-  #intro{
-    z-index: 1; /* Toujours au-dessus du contenu */
+  
+  .all-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   #all {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column !important;
     background-color: #041e22;
+    align-items: center !important;
+    width: 100%;
+    justify-content: center;
   }
   .svg-top-right {
       overflow: hidden;

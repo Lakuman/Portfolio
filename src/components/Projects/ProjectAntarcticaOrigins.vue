@@ -1,6 +1,6 @@
 <template>
     <div class="flex align project gap-32 pad-32">
-      <div class="flex-col gap-16">
+      <div class="flex-col gap-32">
         <div style="font-size: 24px; font-weight: bold; text-align : left;">VR Escape Game : Antarctica Origins</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
@@ -10,11 +10,10 @@
           </div>
           <span style="font-weight: bold;">Role : Lead Developer</span>
         </div>
-        <div class="flex gap-32">
-          <div class="flex-col" style="width:500px; height: 350px;">
+        <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
+          <div class="flex-col" style="max-width:500px; height: 350px;">
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Game Design et Programmation"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
@@ -32,7 +31,6 @@
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Sound Design"
               iconBefore="/images/icons/microphone-icon.svg"
               :delay="300"
@@ -47,7 +45,6 @@
             </Select>
             <Select
               class="flex-col"
-              style="width:500px;"
               text="Additional Skills Acquired"
               iconBefore="/images/icons/pen-icon.svg"
               :delay="300"
@@ -63,8 +60,8 @@
               </div>
             </Select>
           </div>
-        <div class="flex pad-left-16">
-          <VideoLoader backgroundImage="/images/AntarcticaOriginsBackground.png" style="width: 420px; height: 250px" title="Antarctica Origins Trailer" videoUrl="trailer_BA.mp4" />
+        <div class="flex pad-top-16">
+          <VideoLoader backgroundImage="/images/AntarcticaOriginsBackground.png" style="width: 420px; height: 250px" title="Antarctica Origins Trailer" videoUrl="antarctica_origins.mp4" />
         </div>
         </div>
       </div>
@@ -102,7 +99,7 @@ export default {
     background-position: center;
     border: 2px solid #0C3D3A;
     border-radius: 20px;
-    max-width: 1050px;
+    width: 57%;
     background-color: #051D1F;
   }
   </style>
