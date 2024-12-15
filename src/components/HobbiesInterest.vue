@@ -1,9 +1,8 @@
 <template>
-  <div class="parent">
-  <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Hobbies and Interest</div>
-  
+  <div class="parent flex-col">
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Hobbies & Interest</div>
     <div class="flex align pad-top-32 hobbies gap-32">
-      <div class="hobby-card flex-col align pad-top-16" v-for="hobby in hobbies" :key="hobby.id">
+      <div class="hobby-card flex align pad-top-16" v-for="hobby in hobbies" :key="hobby.id">
         <div class="hobby-image">
           <img :src="hobby.image" :alt="hobby.title" />
         </div>
@@ -24,7 +23,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -84,6 +82,7 @@ export default {
   width: calc(50% - 1rem);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  min-width: 300px;
   min-height: 600px;
 }
 

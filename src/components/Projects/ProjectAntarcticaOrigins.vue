@@ -1,7 +1,7 @@
 <template>
-    <div class="flex align project gap-32 pad-32">
+    <div class="project">
       <div class="flex-col gap-32">
-        <div style="font-size: 24px; font-weight: bold; text-align : left;">VR Escape Game : Antarctica Origins</div>
+        <div class="title">VR Escape Game : Antarctica Origins</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
             <span>A VR escape game developed in partnership with Anthony Paccica, Eugénie Vallier, and Nathan Paratt. Antarctica Origins immerses players in a 40-minute adventure exploring a mysterious underground temple in Antarctica, filled with puzzles and terrifying creatures.</span>
@@ -38,7 +38,7 @@
               :activeIndex="activeIndex"
               @update:activeIndex="updateActiveIndex"
             >
-              <div class="flex-col">
+              <div class="flex-col select-content">
                 <div>Integrated interface sounds and environmental sound design</div>
                 <div>Integrated UI sound effects and overall sound design</div>
               </div>
@@ -52,7 +52,7 @@
               :activeIndex="activeIndex"
               @update:activeIndex="updateActiveIndex"
             >
-              <div class="flex-col">
+              <div class="flex-col select-content">
                 <div>Mastery of VR development and optimization techniques</div>
                 <div>Time and task management for episodic content development</div>
                 <div>Creative problem-solving for balancing humor and gameplay mechanics</div>
@@ -89,17 +89,3 @@ export default {
   },
 };
 </script>
-
-  <style scoped>
-  .project{
-    z-index: 1;
-    background-image: url('/videos/noise.svg');
-    background-size: cover; /* ou "contain" selon vos besoins */
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 2px solid #0C3D3A;
-    border-radius: 20px;
-    width: 57%;
-    background-color: #051D1F;
-  }
-  </style>

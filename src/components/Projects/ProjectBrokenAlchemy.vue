@@ -1,5 +1,5 @@
 <template>
-    <div class="flex align project gap-32 pad-32">
+    <div class="project">
       <div class="flex-col gap-32">
         <div style="font-size: 24px; font-weight: bold; text-align : left;">Broken Alchemy</div>
         <div class="flex-col gap-16">
@@ -68,7 +68,7 @@
             </Select>
           </div>
         <div class="flex pad-top-16">
-          <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" style="width: 420px; height: 250px" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
+          <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" style="width: 420px; height: 250px;" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
         </div>
         </div>
       </div>
@@ -98,24 +98,4 @@ export default {
 </script>
 
   <style scoped>
-  .project{
-    z-index: 1;
-    border: 2px solid #0C3D3A;
-    border-radius: 20px;
-    width: 57%;
-    background-color: #051D1F;
-  }
-  .project:before{content: ""; /* Nécessaire pour le pseudo-élément */
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('/images/noise.svg');
-    background-size: contain; /* ou "contain" selon vos besoins */
-    background-repeat: repeat;
-    background-position: center;
-    transform: scale(0.5); /* Applique une transformation de mise à l'échelle (0.5 = 50%) */
-    opacity: 0.05; /* Définit l'opacité à 5% */
-  }
   </style>

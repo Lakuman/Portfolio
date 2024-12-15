@@ -83,6 +83,7 @@ export default {
   border-radius: 20px;
   background-color: #051D1F;
   width: 57%;
+  min-width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   color: white;

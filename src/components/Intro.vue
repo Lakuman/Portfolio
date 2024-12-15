@@ -1,6 +1,6 @@
 <template>
-    <div class="parent intro">
-      <div class="flex-col gap-16 gap-32">
+    <div class="intro">
+      <div class="flex-col gap-16 gap-32" style="max-width: 550px;">
         <div class="flex gap-16">
           <div class="align flex line-container"></div>
           <div class="align flex" style="font-size: 24px;">Adrien Roussel</div>
@@ -89,9 +89,5 @@
       width: 100%;
       height: 100%;
       object-fit: cover; /* Adapte l'image au conteneur sans déformation */
-  }
-  .intro{
-    z-index: 2;
-    width: 57%;
   }
   </style>

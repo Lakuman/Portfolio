@@ -72,8 +72,8 @@ export default {
 </script>
 
 <style scoped>
-.select {
-  width:500px;
+.select {  
+  min-width:200px;
   overflow: hidden;
 }
 

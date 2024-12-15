@@ -14,6 +14,9 @@ body {
   display: flex !important;
   flex-wrap: wrap;
   flex-direction: column !important;
+  width: 100%; /* ou toute autre largeur souhaitée */
+  max-width: 100%; /* Limite la largeur pour éviter de déborder */
+
 }
 
 .align {
@@ -89,8 +92,80 @@ body {
 .button-logo {
   height: 32px;
 }
-.parent {
+.all-parent {
   @extend .flex, .align, .gap-32;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
+.parent {
+  @extend .flex, .align, .gap-32;
+  justify-content: center;
+}
+
+.intro{
+  @extend .flex, .align, .gap-32;
+  z-index: 2;
+  width: 57%;
+  justify-content: left !important;
+  align-items: left !important;
+  min-width: 300px;
+}
+
+.project{
+  @extend .flex, .align, .gap-32, .pad-32;
+  z-index: 2;
+  width: 57%;
+  min-width: 300px;
+  background-image: url('/videos/noise.svg');
+  background-size: cover; /* ou "contain" selon vos besoins */
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #0C3D3A;
+  border-radius: 20px;    
+  background-color: #051D1F;
+}
+
+.skills{
+  @extend .flex, .align, .gap-16;
+  z-index: 2;
+  width: 57%;
+  min-width: 300px;
+  background-image: url('/videos/noise.svg');
+  background-size: cover; /* ou "contain" selon vos besoins */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.hobbies{
+  @extend .flex, .align;
+  z-index: 2;
+  justify-content: center;
+}
+
+.coworkers{
+  @extend .flex, .align;
+  justify-content: center;
+  width: 57%;
+  z-index: 2;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+.title {
+  word-wrap: break-word; /* Permet de couper les mots longs */
+  word-break: break-word; /* Force la coupure si nécessaire */
+  overflow-wrap: break-word; /* Recommandé pour la compatibilité */
+  white-space: normal; /* Permet le retour à la ligne naturel */
+  font-size: 24px; 
+  box-sizing: border-box; 
+  font-weight: bold;  
+  max-width: 50vw; 
+  text-align : left;
+  justify-content: left !important;
+  align-items: left !important;
+}
+

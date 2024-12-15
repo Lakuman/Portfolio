@@ -1,13 +1,12 @@
 
 <template>
-  <div class="parent flex pad-top-64 pad-bottom-64 gap-32"> 
+  <div class="all-parent flex pad-top-64 pad-bottom-64 gap-32"> 
     <div class="svg-top-right">
         <img src="/images/lumos.svg" alt="Lumos SVG" />
     </div>
     <Intro/>
     <Projects/>
     <Skills/>
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Coworkers</div>
     <Coworkers/>
     <Hobbies/>
     <ContactForm />
@@ -37,14 +36,6 @@
 </script>
 
 <style scoped>
-  
-  .all-parent{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
   #all {
     width: 100%;
     max-width: 100%;

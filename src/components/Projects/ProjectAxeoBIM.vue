@@ -1,7 +1,7 @@
 <template>
-  <div class="flex align project gap-32 pad-32">
+  <div class="project">
     <div class="flex-col gap-32">
-      <div style="font-size: 24px; font-weight: bold; text-align : left;">Viewer AxeoBIM</div>
+      <div class="title">Viewer AxeoBIM</div>
       <div class="flex-col gap-16">
         <div class="flex-col gap-8">
           <span> A 3D model viewer developed at Axxone System. The AxeoBIM viewer is a sophisticated BIM tool allowing users to analyze 3D models in IFC and RVT formats. Built with Unity and integrated into the Web AxeoBIM platform via a JS API.</span>
@@ -81,15 +81,4 @@ methods: {
 </script>
 
 <style scoped>
-.project{
-  z-index: 1;
-  background-image: url('/videos/noise.svg');
-  background-size: cover; /* ou "contain" selon vos besoins */
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 2px solid #0C3D3A;
-  border-radius: 20px;
-  width: 57%;
-  background-color: #051D1F;
-}
 </style>
