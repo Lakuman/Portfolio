@@ -1,6 +1,6 @@
 <template>
-  <div class="parent">      
-    <div style="font-size: 32px; font-weight: bold; text-align : left; width: 57%;">Projects</div>  
+  <div class="parent">
+    <div style="font-size: 32px; font-weight: bold; text-align : left; width: 60%;">Projects</div>
     <ProjectBrokenAlchemy/>
     <ProjectSaltenpepper/>
     <ProjectAxeoBIM/>

@@ -14,7 +14,7 @@
         <label for="message">Message</label>
         <textarea id="message" v-model="message" required></textarea>
       </div>
-      <Button 
+      <Button
         type="submit"
         buttonClass="custom-btn"
       >
@@ -82,7 +82,7 @@ export default {
   border: 2px solid #0C3D3A;
   border-radius: 20px;
   background-color: #051D1F;
-  width: 57%;
+  width: 60%;
   min-width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;

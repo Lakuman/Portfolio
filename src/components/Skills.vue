@@ -1,6 +1,6 @@
 <template>
   <div class="skills">
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Skills</div>
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Skills</div>
     <div class="flex align pad-top-32 skills-content gap-32">
       <ClickableIcon text="C#"  icon="/images/icons/file-c-sharp.svg" link="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview"></ClickableIcon>
       <ClickableIcon text="C++" icon="/images/icons/file-cpp.svg" link="https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170"></ClickableIcon>
@@ -34,7 +34,6 @@ export default {
   <style scoped>
   .skills-content{
     z-index: 2;
-    background-color: #051D1F;
     border: 2px solid #0C3D3A;
     border-radius: 20px;
     gap: 12px;

@@ -1,7 +1,7 @@
 <template>
-  <div class="coworkers">    
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 100%;">Coworkers</div>
-    <div class="coworkers-content flex align gap-64">
+  <div class="coworkers">
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Coworkers</div>
+    <div class="coworkers-content flex-col align gap-64">
       <div class="carousel flex gap-64" :style="{ 'flex-wrap': 'nowrap', transform: `translateX(calc(50% - ${(currentIndex * 315) + 120}px))` }">
           <div
             v-for="(feedback, index) in feedbacks"
@@ -56,14 +56,14 @@ export default {
           position: "Product Designer",
           image: "/images/pp-alex.jpg",
           linkedin: "https://www.linkedin.com/in/alexgerber/",
-          quote: "Adrien's attention to detail and creativity are unmatched.",
+          quote: "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
         },
         {
           name: "Xavier Chevalier",
           position: "Fullstack Web Developer",
           image: "images/pp-xavier.jpg",
           linkedin: "https://www.linkedin.com/in/chevalier-xavier/",
-          quote: "Adrien's analytical skills and problem-solving mindset are inspiring.",
+          quote: "Adrien's strong analytical skills and ability to collaborate seamlessly with the team made a significant impact. A true asset to any project requiring precision and teamwork",
         },
       ],
     };
@@ -81,7 +81,7 @@ export default {
 </script>
 
 <style scoped>
-.coworkers-content{  
+.coworkers-content{
   padding-top: 64px;
   justify-content: center;
   z-index: 2;

@@ -65,7 +65,7 @@
             </Select>
           </div>
           <div class="flex pad-top-16">
-            <VideoLoader backgroundImage="/images/SaltenpepperBackground.png" style="width: 420px; height: 250px" title="Patreon video" videoUrl="patreon_snp.mp4" />
+            <VideoLoader backgroundImage="/images/SaltenpepperBackground.png" title="Patreon video" videoUrl="patreon_snp.mp4" />
           </div>
       </div>
     </div>

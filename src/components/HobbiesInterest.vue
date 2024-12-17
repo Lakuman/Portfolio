@@ -1,8 +1,8 @@
 <template>
   <div class="parent flex-col">
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 57%;">Hobbies & Interest</div>
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Hobbies & Interest</div>
     <div class="flex align pad-top-32 hobbies gap-32">
-      <div class="hobby-card flex align pad-top-16" v-for="hobby in hobbies" :key="hobby.id">
+      <div class="hobby-card flex-col align pad-top-16" v-for="hobby in hobbies" :key="hobby.id">
         <div class="hobby-image">
           <img :src="hobby.image" :alt="hobby.title" />
         </div>
@@ -59,7 +59,7 @@ export default {
 .hobbies {
   z-index: 1;
   flex-wrap: wrap;
-  width: 57%;
+  width: 60%;
 }
 
 .hobbies-interests {

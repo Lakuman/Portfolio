@@ -61,7 +61,7 @@
             </Select>
           </div>
         <div class="flex pad-top-16">
-          <VideoLoader backgroundImage="/images/AntarcticaOriginsBackground.png" style="width: 420px; height: 250px" title="Antarctica Origins Trailer" videoUrl="antarctica_origins.mp4" />
+          <VideoLoader backgroundImage="/images/AntarcticaOriginsBackground.png" title="Antarctica Origins Trailer" videoUrl="antarctica_origins.mp4" />
         </div>
         </div>
       </div>

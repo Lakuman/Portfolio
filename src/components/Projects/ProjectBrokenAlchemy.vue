@@ -68,7 +68,7 @@
             </Select>
           </div>
         <div class="flex pad-top-16">
-          <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" style="width: 420px; height: 250px;" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
+          <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
         </div>
         </div>
       </div>

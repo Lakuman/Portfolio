@@ -51,7 +51,7 @@
           </Select>
         </div>
       <div class="flex pad-top-16">
-        <VideoLoader backgroundImage="/images/ViewerAxeoBIMBackground.png" style="width: 420px; height: 250px" title="Viewer AxeoBIM" videoUrl="visionneuse_axeobim.mp4" />
+        <VideoLoader backgroundImage="/images/ViewerAxeoBIMBackground.png" title="Viewer AxeoBIM" videoUrl="visionneuse_axeobim.mp4" />
       </div>
       </div>
     </div>
