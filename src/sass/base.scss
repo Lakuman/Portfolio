@@ -115,6 +115,7 @@ body {
   @extend .flex, .align, .gap-32, .pad-32;
   z-index: 2;
   width: 60%;
+  height: auto;
   min-width: 300px;
   background-image: url("/videos/noise.svg");
   background-size: cover; /* ou "contain" selon vos besoins */
@@ -122,7 +123,7 @@ body {
   background-position: center;
   border: 2px solid #0c3d3a;
   border-radius: 20px;
-  background-color: #051d1f;
+  background-color: #051d1f; 
 }
 
 .skills {
@@ -145,7 +146,7 @@ body {
 .coworkers {
   @extend .flex, .align;
   justify-content: center;
-  width: 100%;
+  width: 700%;
   z-index: 2;
   justify-content: center !important;
   align-items: center !important;

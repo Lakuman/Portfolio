@@ -55,7 +55,9 @@ export default {
   methods: {
     toggleExpand() {
       // Émet un événement pour changer l'index actif
-      this.$emit("update:activeIndex", this.isExpanded ? null : this.index);
+      if(this.activeIndex != this.index){
+        this.$emit("update:activeIndex", this.isExpanded ? null : this.index);
+      }
     },
     // Gestion des transitions pour l'animation d'ouverture/fermeture
     beforeEnter(el) {
@@ -81,7 +83,7 @@ export default {
 /* Conteneur principal */
 .select {
   display: inline-block; /* Permet au conteneur de s'adapter à la taille du contenu */
-  max-width: 100%; /* Évite qu'il dépasse son parent */
+  max-width: 450px; /* Évite qu'il dépasse son parent */
   width: auto; /* Taille dynamique basée sur le contenu */
   overflow-wrap: break-word; /* Gère les retours à la ligne pour le texte trop long */
   word-wrap: break-word;
@@ -91,6 +93,7 @@ export default {
 .row-header {
   display: flex;
   align-items: center;
+  min-width: 200px;
   justify-content: space-between;
   padding: 12px;
   border-bottom: 2px solid #366c5e;

@@ -63,7 +63,11 @@ const stopVideo = () => {
 <style scoped>
 .hover-video {
   position: relative;
-  max-width: 800px; /* Largeur maximale */
+  display: flex; 
+  flex:1; 
+  width: 100%; 
+  height: auto;
+  min-width: 230px;;
   aspect-ratio: 16 / 9; /* Conserve le ratio 16:9 */
   background-color: transparent; /* Couleur de fond */
   border-radius: 20px; /* Bords arrondis */

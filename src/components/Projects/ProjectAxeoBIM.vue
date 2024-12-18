@@ -10,7 +10,7 @@
         <span style="font-weight: bold;">Role : Full stack developer</span>
       </div>
       <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
-        <div class="flex-col" style="max-width:500px; height: 400px;">
+        <div class="flex-col-project" style="max-width:500px; min-height: 350px;">
           <Select
             class="flex-col"
             text="Features"
@@ -32,7 +32,7 @@
           </Select>
           <Select
             class="flex-col"
-            text="Responsibilities & Skills Acquired"
+            text="Skills Acquired"
             iconBefore="/images/icons/pen-icon.svg"
             :delay="300"
             :index="2"
@@ -50,7 +50,7 @@
             </div>
           </Select>
         </div>
-      <div class="flex pad-top-16">
+      <div class="flex pad-top-16 video-container">
         <VideoLoader backgroundImage="/images/ViewerAxeoBIMBackground.png" title="Viewer AxeoBIM" videoUrl="visionneuse_axeobim.mp4" />
       </div>
       </div>
@@ -81,4 +81,15 @@ methods: {
 </script>
 
 <style scoped>
+  .video-container {
+    display: flex;
+    flex-grow: 1; /* Prend tout l'espace restant */
+    max-width: 570px; /* Limite la largeur à 100% */
+    justify-content: center; /* Centrer le contenu si nécessaire */
+    align-items: center; /* Centrer verticalement le contenu */
+  }
+  .flex-col-project {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 </style>

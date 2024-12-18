@@ -10,10 +10,10 @@
           <span style="font-weight: bold;">Role : Technical Developer / Sound Designer / Product Manager</span>
         </div>
         <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
-          <div class="flex-col" style="max-width:500px; height: 350px;">
+          <div class="flex-col-project" style="max-width:500px; min-height: 350px;">
             <Select
               class="flex-col"
-              text="Game Design et Programmation"
+              text="Programmation"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
               :index="1"
@@ -52,7 +52,7 @@
             </Select>
             <Select
               class="flex-col"
-              text="Additional Skills Acquired"
+              text="Skills Acquired"
               iconBefore="/images/icons/pen-icon.svg"
               :delay="300"
               :index="3"
@@ -67,7 +67,7 @@
               </div>
             </Select>
           </div>
-        <div class="flex pad-top-16">
+        <div class="flex pad-top-16 video-container">
           <VideoLoader backgroundImage="/images/BrokenAlchemyBackground.png" title="Broken Alchemy Trailer" videoUrl="trailer_BA.mp4" />
         </div>
         </div>
@@ -96,6 +96,16 @@ export default {
   },
 };
 </script>
-
-  <style scoped>
-  </style>
+<style scoped>
+  .video-container {
+    display: flex;
+    flex-grow: 1; /* Prend tout l'espace restant */
+    max-width: 570px; /* Limite la largeur à 100% */
+    justify-content: center; /* Centrer le contenu si nécessaire */
+    align-items: center; /* Centrer verticalement le contenu */
+  }
+  .flex-col-project {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+</style>

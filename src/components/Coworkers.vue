@@ -1,6 +1,6 @@
 <template>
+  <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Coworkers</div>
   <div class="coworkers">
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Coworkers</div>
     <div class="coworkers-content flex-col align gap-64">
       <div class="carousel flex gap-64" :style="{ 'flex-wrap': 'nowrap', transform: `translateX(calc(50% - ${(currentIndex * 315) + 120}px))` }">
           <div
@@ -85,6 +85,7 @@ export default {
   padding-top: 64px;
   justify-content: center;
   z-index: 2;
+  width: 100%;
   justify-content: center !important;
   align-items: center !important;
   overflow: hidden;

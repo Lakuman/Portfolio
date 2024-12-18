@@ -1,7 +1,7 @@
 <template>
   <div class="parent contact-card flex-col">
     <h2>Contact me</h2>
-    <form @submit.prevent="submitForm">
+    <form class="form" @submit.prevent="submitForm">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" id="name" v-model="name" required />
@@ -94,7 +94,9 @@ h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
-
+.form {
+  width: 100%;
+}
 .form-group {
   margin-bottom: 15px;
 }
