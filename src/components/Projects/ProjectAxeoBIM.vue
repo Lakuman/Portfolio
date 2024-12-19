@@ -5,7 +5,7 @@
       <div class="flex-col gap-16">
         <div class="flex-col gap-8">
           <span> A 3D model viewer developed at Axxone System. The AxeoBIM viewer is a sophisticated BIM tool allowing users to analyze 3D models in IFC and RVT formats. Built with Unity and integrated into the Web AxeoBIM platform via a JS API.</span>
-          <span> When I was hired at Axxone System, I was tasked with creating this 3D viewer entirely from scratch. I faced numerous technical and algorithmic challenges but ultimately delivered the tool on the AxeoBIM platform by the end of 2023, following several years of development. This was my most complex project, and I was fortunate to rely on the support of Marc-Etienne Barrut (Technical Director) and Grégoire Haze (Software Developer) to bring it to completion.</span>
+          <span> When I was hired at Axxone System, I was tasked with creating this 3D viewer entirely from scratch. I faced numerous technical and algorithmic challenges but ultimately delivered the tool on the AxeoBIM platform by the end of 2023, following several years of development. This was my most complex project, and I was fortunate to rely on the support of Marc-Etienne Barrut (Technical Director) and Grégoire Hazette (Software Developer) to bring it to completion.</span>
         </div>
         <span style="font-weight: bold;">Role : Full stack developer</span>
       </div>
