@@ -1,6 +1,9 @@
 import './assets/main.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import i18n from "./i18n"; // Import du fichier i18n
 
-import { createApp } from 'vue'
-import App from './App.vue'
+const app = createApp(App);
 
-createApp(App).mount('#app')
+app.use(i18n); // Ajout de i18n à l'application
+app.mount('#app');

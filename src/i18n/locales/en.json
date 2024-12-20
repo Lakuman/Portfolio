@@ -1,0 +1,172 @@
+{
+  "site_title": "Portfolio Adrien Roussel",
+  "intro": {
+    "title": "Game & Web developer based in Lyon",
+    "part_one" : "Over the past six years, I have honed and strengthened my programming skills, refined my working methodology, and developed strong teamwork and communication abilities. These experiences have prepared me to seamlessly integrate into any development team, regardless of its size or focus. My dual expertise as a Game and Web Developer provides me with exceptional versatility in the field.",
+    "part_two": "In addition, I have cultivated excellent communication, management, and team leadership skills, positioning me as an ideal candidate to lead web and creative development projects with confidence and efficiency.",
+    "download": "Download my resume",
+    "connect": "Let's Connect !"
+  },
+  "project": {
+      "title": "Projects",
+      "broken_alchemy": {
+        "title": "Broken Alchemy",
+        "part_one": "An Android video game developed in partnership with talented illustrators Gautier Filliard and Eugénie Vallier. Broken Alchemy is a humorous visual novel where you play Alan Bique, an alchemist tasked with taking over his master’s alchemy shop.",
+        "part_two": "We chose to develop this project because it allowed us to leverage each team member's individual skills to create a project quickly, efficiently, and within a reasonable budget. Gautier Filliard came up with the idea of a card game set in a potion-themed universe, which we later transformed into a visual novel.",
+        "role": "Role : Technical Developer / Sound Designer / Product Manager",
+        "select": {
+          "select_one": { 
+            "title": "Programmation", 
+            "dialogue": "Dialogue system and save system using google play services and tools",
+            "loots": "Loot items",
+            "interface": "Interface integration:",
+            "storage": "Item storage",
+            "options": "Game options (Sound and Language)",
+            "rewards": "Rewards",
+            "crafting": "Potion crafting mini-game"
+          },
+          "select_two": { 
+            "title": "Sound Design & Writing", 
+            "ten_song": "Composed 10 original tracks for the game’s soundtrack",
+            "sounds": "Integrated UI sound effects and overall sound design",
+            "writing": "Wrote 10 out of 50 planned episodes for 3 hours of gameplay.",
+            "analyze": "Analyzed the narrative impact of player choices."
+          },
+          "select_tree": { 
+            "title": "Skills Acquired", 
+            "collaboration": "Team collaboration with artists and writers",
+            "management": "Time and task management for episodic content development",
+            "problem_solving": "Creative problem-solving for balancing humor and gameplay mechanics",
+            "mechanics": "Experience integrating narrative-driven mechanics in gameplay"
+          }
+        }
+      },
+      "saltenpepper": {
+        "title": "Saltenpepper",
+        "part_one": "Saltenpepper is a turn-based roguelike RPG developed in collaboration with Alexandre Diboine and Grégoire Delzongue. Its universe revolves around cooking and feeding enemies with delicious dishes. Players create recipes to deal damage during tactical combat. This innovative and entertaining concept made developing the prototype a truly enjoyable experience!",
+        "part_two": "This project was created by Alexandre Diboine, who came up with the entire idea and concept. I then joined the project to handle the development aspect, and later, Grégoire Delzongue joined the team as well. We chose Unity for its ease of integration and accessibility.",
+        "role": "Role : Lead Developer",
+        "select": {
+          "select_one": { 
+            "title": "Programmation", 
+            "2D": "Integrated 2D UI elements provided by Alexandre Diboine.",
+            "character_movement": "Developed 3D character movement systems.",
+            "character_animations": "Integrated both 2D and 3D character animations.",
+            "loot_system": "Designed and implemented an item loot system.",
+            "shop": "Built a shop and currency system for in-game purchases.",
+            "lootable": "Implemented various types of lootable and usable items for combat.",
+            "transition": "Developed a scene transition system for seamless gameplay flow."
+          },
+          "select_two": { 
+            "title": "Collaborative Contributions", 
+            "brainstorming": "Participated in brainstorming sessions and project design meetings",
+            "mechanics": "Contributed to gameplay mechanics, specifically combat design and game evolution",
+            "refine": "Provided insights to refine the game’s design based on tactical balance and player engagement"
+          },
+          "select_tree": { 
+            "title": "Skills Acquired", 
+            "collaboration": "Team collaboration with artists and writers",
+            "management": "Time and task management for episodic content development",
+            "problem_solving": "Creative problem-solving for balancing humor and gameplay mechanics",
+            "mechanics": "Experience integrating narrative-driven mechanics in gameplay"
+          }
+        }
+      },
+      "axeobim": {
+        "title": "Viewer AxeoBIM",
+        "part_one": "A 3D model viewer developed at Axxone System. The AxeoBIM viewer is a sophisticated BIM tool allowing users to analyze 3D models in IFC and RVT formats. Built with Unity and integrated into the Web AxeoBIM platform via a JS API.",
+        "part_two": "When I was hired at Axxone System, I was tasked with creating this 3D viewer entirely from scratch. I faced numerous technical and algorithmic challenges but ultimately delivered the tool on the AxeoBIM platform by the end of 2023, following several years of development. This was my most complex project, and I was fortunate to rely on the support of Marc-Etienne Barrut (Technical Director) and Grégoire Haze (Software Developer) to bring it to completion.",
+        "role": "Role : Full stack developer",
+        "select": {
+          "select_one": { 
+            "title": "Features", 
+            "navigation": "Navigation system",
+            "cutting_tools": "Cutting tools",
+            "measurement": "Measurement tools",
+            "parameter": "Parameter management",
+            "placement": "Algorithm for 3D model placement",
+            "observation": "Integration into an observation module",
+            "algorithm": "Developed an algorithm for an asynchrone 3D object generation"
+          },
+          "select_two": { 
+            "title": "Collaborative Contributions", 
+            "features": "Developed features based on client needs",
+            "optimized": "Adapted and optimized algorithms to meet evolving industry standards",
+            "algorithm": "Advanced algorithm development and optimization",
+            "experience": "Experience with WebGL and VueJS integrations",
+            "bim": "Hands-on experience in BIM (Building Information Modeling) technologies",
+            "debugging":"Debugging and performance profiling for large-scale 3D models",
+            "crossplatform": "Cross-platform integration and API development"
+          }
+        }
+      },
+      "antarctica": {
+        "title": "VR Escape Game : Antarctica Origins",
+        "part_one": "A VR escape game developed in partnership with Anthony Paccica, Eugénie Vallier, and Nathan Paratt. Antarctica Origins immerses players in a 40-minute adventure exploring a mysterious underground temple in Antarctica, filled with puzzles and terrifying creatures.",
+        "part_two": "This was my first experience in game development overall, and starting with VR was both challenging and rewarding. Anthony presented us with the idea for a VR game, which immediately resonated with me. After testing the headset, we quickly familiarized ourselves with the development process.",
+        "part_tree": "We soon encountered the technical limitations of the Oculus Android processor. However, with determination and creative problem-solving, we managed to overcome these hurdles and deliver a complete game that was successfully launched on the Oculus VR development platform.",
+       "role": "Role : Lead Developer",
+        "select": {
+          "select_one": { 
+            "title": "Programmation", 
+            "vr": "Integrated VR input systems.",
+            "room": "Designed and implemented escape room levels and puzzles",
+            "character_animations": "Integrated both 2D and 3D character animations.",
+            "loot_system": "Designed and implemented an item loot and inventory system.",
+            "ai": "Programmed AI behavior for enemies",
+            "animations": "Integrated 3D/2D animations and special effects",
+            "storytelling": "Implemented immersive environmental storytelling through visual and audio cues"
+          },
+          "select_two": { 
+            "title": "Sound Design", 
+            "sound": "Integrated interface sounds and environmental sound design",
+            "effects": "Integrated UI sound effects and overall sound design"
+          },
+          "select_tree": { 
+            "title": "Skills Acquired", 
+            "collaboration": "Mastery of VR development and optimization techniques",
+            "management": "Time and task management for episodic content development",
+            "problem_solving": "Creative problem-solving for balancing humor and gameplay mechanics",
+            "mechanics": "Experience integrating narrative-driven mechanics in gameplay"
+          }
+        }
+      }
+  },
+  "skills": "Compétences",
+  "coworkers": {
+    "title": "Collaborateurs",
+    "gautier_text": "I had the opportunity to collaborate with Adrien. It was a very beneficial exchange, both in terms of efficiency, the proposal of technical solutions, and the clarity of the systems put in place to advance the game's production!",
+    "gautier_role": "Illustrator & Concept Artist",
+    "alex_text": "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
+    "alex_role": "Product Designer",
+    "alexandre_text": "Adrien has mastered the perfect balance between achieving his objectives within the given timeframe while adapting to production demands, and proactively identifying potential issues with certain decisions, offering alternative solutions that always align with the project's vision.",
+    "alexandre_role": "Artistic Director & Concept Artist",
+    "xavier_text": "Adrien's strong analytical skills and ability to collaborate seamlessly with the team made a significant impact. A true asset to any project requiring precision and teamwork",
+    "xavier_role": "Fullstack Web Developer"
+
+  },
+  "hobbies": {
+    "title": "Hobbies & Interest",
+    "game_master": {
+      "title": "Game Master",
+      "subtitle": "Game Master in the D&D Universe:",
+      "part_one":"Since 2017, I embarked on a major role-playing game adventure, creating several campaigns, but the most significant one remains “The Lands of Baldur”: A role-playing game following the rules of D&D in a Medieval Fantasy universe entirely designed by me.",
+      "part_two":"I initially created small towns and had a single group of players participate in these areas for the first campaign. However, my map quickly expanded, the number of groups taking part in the stories grew, and I soon found myself with a gigantic map, hundreds of NPCs, and an ever-expanding world.",
+      "part_tree":"This universe has accompanied and shaped me up to this day, reaffirming my desire to contribute to professional creative projects."
+    },
+    "musician": {
+      "title": "Musician",
+      "subtitle": "Musician in a Hard Rock Band:",
+      "part_one":"Since 2021, I have been part of a Hard Rock band as a guitarist. I’ve been making music since I was 15, and I also studied at the Annecy Conservatory of Music. Practicing this activity in a group has really enhanced my artistic thinking.",
+      "part_two":"I’ve had the time to develop my listening and communication skills. Music has become an even more integral part of my projects, and I’ve come to appreciate even more working on sound design in my creative endeavors."
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "name": "Name",
+    "mail": "Email",
+    "message": "Message",
+    "send": "Send"
+  }
+  
+}

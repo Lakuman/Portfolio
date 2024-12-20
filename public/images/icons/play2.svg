@@ -1,0 +1,53 @@
+<svg
+  width="78"
+  height="83"
+  viewBox="0 0 78 83"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g filter="url(#filter0_bdd_24_1925)">
+    <rect
+      x="7"
+      y="5.5"
+      width="64"
+      height="64"
+      rx="18.2857"
+      fill="black"
+      fill-opacity="0.08"
+      shape-rendering="crispEdges"
+    />
+    <rect
+      x="8.14286"
+      y="6.64286"
+      width="61.7143"
+      height="61.7143"
+      rx="17.1429"
+      stroke="white"
+      stroke-width="2.28571"
+      shape-rendering="crispEdges"
+    />
+    <path
+      d="M50.1857 36.0523L34.7485 26.6088C34.4883 26.4494 34.1902 26.3624 33.885 26.3567C33.5799 26.3511 33.2788 26.427 33.0128 26.5766C32.7494 26.7239 32.5299 26.9387 32.377 27.199C32.2241 27.4592 32.1433 27.7555 32.1428 28.0573V46.9423C32.1448 47.3951 32.3265 47.8286 32.648 48.1474C32.9694 48.4663 33.4043 48.6444 33.8571 48.6427C34.1731 48.6426 34.483 48.5554 34.7528 48.3909L50.1857 38.9473C50.4338 38.7961 50.6388 38.5837 50.781 38.3304C50.9233 38.0771 50.998 37.7914 50.998 37.5009C50.998 37.2104 50.9233 36.9248 50.781 36.6714C50.6388 36.4181 50.4338 36.2057 50.1857 36.0545V36.0523ZM33.8571 46.922V28.0713L49.2675 37.4998L33.8571 46.922Z"
+      fill="white"
+    />
+  </g>
+  <defs>
+    <filter
+      id="filter0_bdd_24_1925"
+      x="-6"
+      y="-7.5"
+      width="90"
+      height="90.2857"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feGaussianBlur
+        in="SourceGraphic"
+        stdDeviation="6.5"
+        result="blur"
+      />
+      <feBlend mode="normal" in="blur" in2="SourceGraphic" result="shape" />
+    </filter>
+  </defs>
+</svg>

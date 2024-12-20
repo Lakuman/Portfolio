@@ -1,19 +1,19 @@
 <template>
     <div class="project">
       <div class="flex-col gap-32">
-        <div style="font-size: 24px; font-weight: bold; text-align : left;">Broken Alchemy</div>
+        <div style="font-size: 24px; font-weight: bold; text-align : left;">{{ $t('project.broken_alchemy.title') }}</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
-            <span> An Android video game developed in partnership with talented illustrators Gautier Filliard and Eugénie Vallier. Broken Alchemy is a humorous visual novel where you play Alan Bique, an alchemist tasked with taking over his master’s alchemy shop.</span>
-            <span> We chose to develop this project because it allowed us to leverage each team member's individual skills to create a project quickly, efficiently, and within a reasonable budget. Gautier Filliard came up with the idea of a card game set in a potion-themed universe, which we later transformed into a visual novel.</span>
+            <span>{{ $t('project.broken_alchemy.part_one') }}</span>
+            <span>{{ $t('project.broken_alchemy.part_two') }}</span>
           </div>
-          <span style="font-weight: bold;">Role : Technical Developer / Sound Designer / Product Manager</span>
+          <span style="font-weight: bold;">{{ $t('project.broken_alchemy.role') }}</span>
         </div>
         <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
           <div class="flex-col-project" style="max-width:500px; min-height: 350px;">
             <Select
               class="flex-col"
-              text="Programmation"
+              :text="$t('project.broken_alchemy.select.select_one.title')"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
               :index="1"
@@ -21,14 +21,14 @@
               @update:activeIndex="updateActiveIndex"
             >
             <div class="flex-col">
-              <span>Dialogue system and choice saving</span>
-              <span>Loot items</span>
-              <div>Interface integration:
+              <span>{{ $t('project.broken_alchemy.select.select_one.dialogue') }}</span>
+              <span>{{ $t('project.broken_alchemy.select.select_one.loots') }}</span>
+              <div>{{ $t('project.broken_alchemy.select.select_one.interface') }}
                 <ul>
-                  <li>Item storage</li>
-                  <li>Game options (Sound and Language)</li>
-                  <li>Rewards</li>
-                  <li>Potion crafting mini-game</li>
+                  <li>{{ $t('project.broken_alchemy.select.select_one.storage') }}</li>
+                  <li>{{ $t('project.broken_alchemy.select.select_one.options') }}</li>
+                  <li>{{ $t('project.broken_alchemy.select.select_one.rewards') }}</li>
+                  <li>{{ $t('project.broken_alchemy.select.select_one.crafting') }}</li>
                 </ul>
               </div>
             </div>
@@ -36,7 +36,7 @@
             </Select>
             <Select
               class="flex-col"
-              text="Sound Design & Writing"
+              :text="$t('project.broken_alchemy.select.select_two.title')"
               iconBefore="/images/icons/microphone-icon.svg"
               :delay="300"
               :index="2"
@@ -44,15 +44,15 @@
               @update:activeIndex="updateActiveIndex"
             >
               <div class="flex-col">
-                <div>Composed 10 original tracks for the game’s soundtrack</div>
-                <div>Integrated UI sound effects and overall sound design</div>
-                <div>Wrote 10 out of 50 planned episodes for 3 hours of gameplay.</div>
-                <div>Analyzed the narrative impact of player choices.</div>
+                <div>{{ $t('project.broken_alchemy.select.select_two.ten_song') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_two.sounds') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_two.writing') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_two.analyze') }}</div>
               </div>
             </Select>
             <Select
               class="flex-col"
-              text="Skills Acquired"
+              :text="$t('project.broken_alchemy.select.select_tree.title')"
               iconBefore="/images/icons/pen-icon.svg"
               :delay="300"
               :index="3"
@@ -60,10 +60,10 @@
               @update:activeIndex="updateActiveIndex"
             >
               <div class="flex-col">
-                <div>Team collaboration with artists and writers</div>
-                <div>Time and task management for episodic content development</div>
-                <div>Creative problem-solving for balancing humor and gameplay mechanics</div>
-                <div>Experience integrating narrative-driven mechanics in gameplay</div>
+                <div>{{ $t('project.broken_alchemy.select.select_tree.collaboration') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_tree.management') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_tree.problem_solving') }}</div>
+                <div>{{ $t('project.broken_alchemy.select.select_tree.mechanics') }}</div>
               </div>
             </Select>
           </div>

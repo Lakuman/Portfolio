@@ -1,5 +1,5 @@
 <template>
-  <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Coworkers</div>
+  <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">{{$t('coworkers.title')}}</div>
   <div class="coworkers">
     <div class="coworkers-content flex-col align gap-64">
       <div class="carousel flex gap-64" :style="{ 'flex-wrap': 'nowrap', transform: `translateX(calc(50% - ${(currentIndex * 315) + 120}px))` }">
@@ -39,31 +39,31 @@ export default {
       feedbacks: [
         {
           name: "Gautier FILLIARD",
-          position: "Illustrator & Concept Artist",
+          position: this.$t('coworkers.gautier_role'),
           image: "/images/pp-gautier.png",
           linkedin: "https://www.instagram.com/gautierfilliard/",
-          quote: "I had the opportunity to collaborate with Adrien. It was a very beneficial exchange, both in terms of efficiency, the proposal of technical solutions, and the clarity of the systems put in place to advance the game's production!",
+          quote: this.$t('coworkers.gautier_text'),
         },
         {
           name: "Alexandre DIBOINE",
-          position: "Artistic Director & Concept Artist",
+          position: this.$t('coworkers.alexandre_role'),
           image: "/images/pp-alexandre.png",
           linkedin: "https://www.instagram.com/alexandrediboine/",
-          quote: "Adrien has mastered the perfect balance between achieving his objectives within the given timeframe while adapting to production demands, and proactively identifying potential issues with certain decisions, offering alternative solutions that always align with the project's vision.",
+          quote: this.$t('coworkers.alexandre_text'),
         },
         {
           name: "Alex GERBER",
-          position: "Product Designer",
+          position: this.$t('coworkers.alex_role'),
           image: "/images/pp-alex.jpg",
           linkedin: "https://www.linkedin.com/in/alexgerber/",
-          quote: "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
+          quote: this.$t('coworkers.alex_text'),
         },
         {
           name: "Xavier Chevalier",
-          position: "Fullstack Web Developer",
+          position: this.$t('coworkers.xavier_role'),
           image: "images/pp-xavier.jpg",
           linkedin: "https://www.linkedin.com/in/chevalier-xavier/",
-          quote: "Adrien's strong analytical skills and ability to collaborate seamlessly with the team made a significant impact. A true asset to any project requiring precision and teamwork",
+          quote: this.$t('coworkers.xavier_text'),
         },
       ],
     };

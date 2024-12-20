@@ -1,30 +1,26 @@
 <template>
     <div class="intro">
-      <div class="flex-col gap-16 gap-32" style="max-width: 550px;">
+      <div class="flex-col gap-16 gap-32" style="max-width: 700px;">
         <div class="flex gap-16">
           <div class="align flex line-container"></div>
           <div class="align flex" style="font-size: 24px;">Adrien Roussel</div>
         </div>
-        <div class="align flex" style="font-size: 32px; font-weight: bold; text-align : left;">Game & Web developer based in Lyon</div>
+        <div class="align flex" style="font-size: 32px; font-weight: bold; text-align : left;">{{ $t('intro.title') }}</div>
         <div class="flex-col gap-32">
-          <div class="flex-col gap-16" style="max-width: 600px;">
-            <span style="text-align: left;">
-              Over the past six years, I have honed and strengthened my programming skills, refined my agile working methodology, and developed strong teamwork and communication abilities. These experiences have prepared me to seamlessly integrate into any development team, regardless of its size or focus. My dual expertise as a Game and Web Developer provides me with exceptional versatility in the field.
-            </span>
-            <span style="text-align: left;">
-              In addition, I have cultivated excellent communication, management, and team leadership skills, positioning me as an ideal candidate to lead web and creative development projects with confidence and efficiency.
-            </span>
+          <div class="flex-col gap-16" style="max-width: 640px;">
+            <span style="text-align: left;">{{ $t('intro.part_one') }}</span>
+            <span style="text-align: left;">{{ $t('intro.part_two') }}</span>
           </div>
           <div class="flex gap-16">
             <Button class="flex" @click="handleDownloadCV">
               <span class="align flex gap-8">
-                <slot>Download my resume</slot>
+                <slot>{{ $t('intro.download') }}</slot>
               </span>
             </Button>
             <Button class="flex" @click="handleConnect">
               <span class="align flex gap-16">
                 <img src="/images/icons/linkedin-logo.svg" alt="Logo" class="button-logo" />
-                <slot>Let's Connect !</slot>
+                <slot>{{ $t('intro.connect') }}</slot>
               </span>
             </Button>
           </div>
@@ -36,7 +32,7 @@
       </div>
     </div>
   </template>
-  <script>
+  <script lang="ts">
   import '@/sass/base.scss';
   import Button from "@/components/library/Button.vue";
 

@@ -1,24 +1,24 @@
 <template>
   <div class="parent contact-card flex-col">
-    <h2>Contact me</h2>
+    <h2>{{ $t('contact.title')}}</h2>
     <form class="form" @submit.prevent="submitForm">
       <div class="form-group">
-        <label for="name">Name</label>
+        <label for="name">{{ $t('contact.name')}}</label>
         <input type="text" id="name" v-model="name" required />
       </div>
       <div class="form-group">
-        <label for="email">Email</label>
+        <label for="email">{{ $t('contact.mail')}}</label>
         <input type="email" id="email" v-model="email" required />
       </div>
       <div class="form-group">
-        <label for="message">Message</label>
+        <label for="message">{{ $t('contact.message')}}</label>
         <textarea id="message" v-model="message" required></textarea>
       </div>
       <Button
         type="submit"
         buttonClass="custom-btn"
       >
-        Send
+        {{$t('contact.send')}}
       </Button>
     </form>
   </div>

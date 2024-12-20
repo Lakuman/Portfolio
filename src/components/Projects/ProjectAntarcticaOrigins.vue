@@ -1,20 +1,20 @@
 <template>
     <div class="project">
       <div class="flex-col gap-32">
-        <div class="title">VR Escape Game : Antarctica Origins</div>
+        <div class="title">{{ $t('project.antarctica.title') }}</div>
         <div class="flex-col gap-16">
           <div class="flex-col gap-8">
-            <span>A VR escape game developed in partnership with Anthony Paccica, Eugénie Vallier, and Nathan Paratt. Antarctica Origins immerses players in a 40-minute adventure exploring a mysterious underground temple in Antarctica, filled with puzzles and terrifying creatures.</span>
-            <span>This was my first experience in game development overall, and starting with VR was both challenging and rewarding. Anthony presented us with the idea for a VR game, which immediately resonated with me. After testing the headset, we quickly familiarized ourselves with the development process.</span>
-            <span>We soon encountered the technical limitations of the Oculus Android processor. However, with determination and creative problem-solving, we managed to overcome these hurdles and deliver a complete game that was successfully launched on the Oculus VR development platform.</span>
+            <span>{{ $t('project.antarctica.part_one') }}</span>
+            <span>{{ $t('project.antarctica.part_two') }}</span>
+            <span>{{ $t('project.antarctica.part_tree') }}</span>
           </div>
-          <span style="font-weight: bold;">Role : Lead Developer</span>
+          <span style="font-weight: bold;">{{ $t('project.antarctica.role') }}</span>
         </div>
         <div class="flex gap-32" style="align-items: flex-start; justify-content: flex-start;">
           <div class="flex-col-project" style="max-width:500px; min-height: 350px;">
             <Select
               class="flex-col"
-              text="Programmation"
+              :text="$t('project.antarctica.select.select_one.title')"
               iconBefore="/images/icons/code-icon.svg"
               :delay="300"
               :index="1"
@@ -22,16 +22,18 @@
               @update:activeIndex="updateActiveIndex"
             >
               <div class="flex-col">
-                <span>Integrated VR input systems</span>
-                <span>Designed and implemented escape room levels and puzzles</span>
-                <span>Programmed AI behavior for enemies</span>
-                <span>Integrated 3D/2D animations and special effects</span>
-                <span>Implemented immersive environmental storytelling through visual and audio cues</span>
+                <span>{{ $t('project.antarctica.select.select_one.vr') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.room') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.character_animations') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.loot_system') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.animations') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.ai') }}</span>
+                <span>{{ $t('project.antarctica.select.select_one.storytelling') }}</span>
               </div>
             </Select>
             <Select
               class="flex-col"
-              text="Sound Design"
+              :text="$t('project.antarctica.select.select_two.title')"
               iconBefore="/images/icons/microphone-icon.svg"
               :delay="300"
               :index="2"
@@ -39,13 +41,13 @@
               @update:activeIndex="updateActiveIndex"
             >
               <div class="flex-col select-content">
-                <div>Integrated interface sounds and environmental sound design</div>
-                <div>Integrated UI sound effects and overall sound design</div>
+                <div>{{ $t('project.antarctica.select.select_two.sound') }}</div>
+                <div>{{ $t('project.antarctica.select.select_two.effects') }}</div>
               </div>
             </Select>
             <Select
               class="flex-col"
-              text="Skills Acquired"
+              :text="$t('project.antarctica.select.select_tree.title')"
               iconBefore="/images/icons/pen-icon.svg"
               :delay="300"
               :index="3"
@@ -53,10 +55,10 @@
               @update:activeIndex="updateActiveIndex"
             >
               <div class="flex-col select-content">
-                <div>Mastery of VR development and optimization techniques</div>
-                <div>Time and task management for episodic content development</div>
-                <div>Creative problem-solving for balancing humor and gameplay mechanics</div>
-                <div>Experience integrating narrative-driven mechanics in gameplay</div>
+                <div>{{ $t('project.antarctica.select.select_tree.collaboration') }}</div>
+                <div>{{ $t('project.antarctica.select.select_tree.management') }}</div>
+                <div>{{ $t('project.antarctica.select.select_tree.problem_solving') }}</div>
+                <div>{{ $t('project.antarctica.select.select_tree.mechanics') }}</div>
               </div>
             </Select>
           </div>

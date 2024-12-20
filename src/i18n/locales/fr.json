@@ -1,0 +1,170 @@
+{
+  "site_title": "Portfolio Adrien Roussel",
+  "intro": {
+    "title": "Développeur de Jeux-Videos/Web situé à Lyon",
+    "part_one": "Au cours des six dernières années, j’ai perfectionné et renforcé mes compétences en programmation, affiné ma méthodologie de travail et développé des capacités solides en travail d’équipe et en communication. Ces expériences m’ont préparé à m’intégrer facilement dans n’importe quelle équipe de développement, quelle que soit sa taille ou son domaine. Ma double expertise en tant que Développeur Jeu et Web me confère une polyvalence exceptionnelle dans le domaine.",
+    "part_two": "De plus, j’ai cultivé d’excellentes compétences en communication, gestion et leadership d’équipe, faisant de moi un candidat idéal pour diriger des projets de développement web et créatif avec confiance et efficacité.",
+    "download": "Télécharger mon CV",
+    "connect": "Connectons-nous !"
+  },
+  "project": {
+    "title": "Projets",
+    "broken_alchemy": {
+      "title": "Broken Alchemy",
+      "part_one": "Un jeu vidéo Android développé en partenariat avec les talentueux illustrateurs Gautier Filliard et Eugénie Vallier. Broken Alchemy est un roman visuel humoristique où vous incarnez Alan Bique, un alchimiste chargé de reprendre la boutique d’alchimie de son maître.",
+      "part_two": "Nous avons choisi de développer ce projet car il nous permettait de tirer parti des compétences individuelles de chaque membre de l’équipe pour créer un projet rapidement, efficacement et avec un budget raisonnable. Gautier Filliard a eu l’idée d’un jeu de cartes dans un univers basé sur les potions, que nous avons ensuite transformé en roman visuel.",
+      "role": "Rôle : Développeur Technique / Sound Designer / Chef de Produit",
+      "select": {
+        "select_one": { 
+          "title": "Programmation", 
+          "dialogue": "Système de dialogue et sauvegarde via les services Google Play",
+          "loots": "Système de récupération d’objets",
+          "interface": "Intégration de l’interface :",
+          "storage": "Gestion des objets",
+          "options": "Options de jeu (son et langue)",
+          "rewards": "Récompenses",
+          "crafting": "Mini-jeu de fabrication de potions"
+        },
+        "select_two": { 
+          "title": "Sound Design & Écriture", 
+          "ten_song": "Composition de 10 morceaux originaux pour la bande-son du jeu",
+          "sounds": "Intégration des effets sonores de l’interface et design sonore global",
+          "writing": "Écriture de 10 épisodes sur les 50 prévus, représentant 3 heures de jeu",
+          "analyze": "Analyse de l’impact narratif des choix des joueurs."
+        },
+        "select_tree": { 
+          "title": "Compétences Acquises", 
+          "collaboration": "Collaboration en équipe avec artistes et écrivains",
+          "management": "Gestion du temps et des tâches pour le développement épisodique",
+          "problem_solving": "Résolution créative pour équilibrer humour et mécaniques de jeu",
+          "mechanics": "Expérience en intégration de mécaniques narratives dans le gameplay"
+        }
+      }
+    },
+    "saltenpepper": {
+      "title": "Saltenpepper",
+      "part_one": "Saltenpepper est un RPG roguelike au tour par tour développé en collaboration avec Alexandre Diboine et Grégoire Delzongue. Son univers tourne autour de la cuisine et de l’idée de nourrir les ennemis avec des plats délicieux. Les joueurs créent des recettes pour infliger des dégâts lors des combats tactiques. Ce concept innovant et divertissant a rendu le développement du prototype particulièrement agréable !",
+      "part_two": "Ce projet a été créé par Alexandre Diboine, qui a imaginé l’ensemble de l’idée et du concept. J’ai ensuite rejoint le projet pour m’occuper du développement, et plus tard, Grégoire Delzongue a intégré l’équipe. Nous avons choisi Unity pour sa facilité d’intégration et son accessibilité.",
+      "role": "Rôle : Développeur Principal",
+      "select": {
+        "select_one": { 
+          "title": "Programmation", 
+          "2D": "Intégration des éléments UI 2D fournis par Alexandre Diboine",
+          "character_movement": "Développement des systèmes de mouvement pour les personnages 3D",
+          "character_animations": "Intégration des animations 2D et 3D des personnages",
+          "loot_system": "Création et mise en œuvre d’un système de récupération d’objets",
+          "shop": "Construction d’un système de boutique et de monnaie pour les achats en jeu",
+          "lootable": "Implémentation de divers objets utilisables en combat",
+          "transition": "Développement d’un système de transition entre les scènes pour une expérience fluide"
+        },
+        "select_two": { 
+          "title": "Contributions Collaboratives", 
+          "brainstorming": "Participation aux sessions de brainstorming et réunions de conception",
+          "mechanics": "Contribution aux mécaniques de jeu, notamment le design des combats",
+          "refine": "Proposition d’améliorations pour équilibrer tactiquement le jeu et maintenir l’engagement des joueurs"
+        },
+        "select_tree": { 
+          "title": "Compétences Acquises", 
+          "collaboration": "Collaboration en équipe avec artistes et écrivains",
+          "management": "Gestion du temps et des tâches pour le développement épisodique",
+          "problem_solving": "Résolution créative pour équilibrer humour et mécaniques de jeu",
+          "mechanics": "Expérience en intégration de mécaniques narratives dans le gameplay"
+        }
+      }
+    },
+    "axeobim": {
+      "title": "Viewer AxeoBIM",
+      "part_one": "Un visualiseur de modèles 3D développé chez Axxone System. Le viewer AxeoBIM est un outil BIM sophistiqué permettant aux utilisateurs d’analyser des modèles 3D aux formats IFC et RVT. Construit avec Unity et intégré à la plateforme Web AxeoBIM via une API JS.",
+      "part_two": "Lorsque j’ai été embauché chez Axxone System, ma mission était de créer ce visualiseur 3D entièrement à partir de zéro. J’ai rencontré de nombreux défis techniques et algorithmiques mais j’ai finalement livré l’outil sur la plateforme AxeoBIM fin 2023, après plusieurs années de développement. Ce fut mon projet le plus complexe, et j’ai eu la chance de pouvoir compter sur le soutien de Marc-Etienne Barrut (Directeur Technique) et Grégoire Haze (Développeur Logiciel) pour le mener à bien.",
+      "role": "Rôle : Développeur Full Stack",
+      "select": {
+        "select_one": { 
+          "title": "Fonctionnalités", 
+          "navigation": "Système de navigation",
+          "cutting_tools": "Outils de découpe",
+          "measurement": "Outils de mesure",
+          "parameter": "Gestion des paramètres",
+          "placement": "Algorithme pour le placement des modèles 3D",
+          "observation": "Intégration dans un module d’observation",
+          "algorithm": "Développement d’un algorithme pour la génération asynchrone d’objets 3D"
+        },
+        "select_two": { 
+          "title": "Contributions Collaboratives", 
+          "features": "Développement de fonctionnalités basées sur les besoins des clients",
+          "optimized": "Adaptation et optimisation des algorithmes pour répondre aux standards du secteur",
+          "algorithm": "Développement et optimisation d’algorithmes avancés",
+          "experience": "Expérience en intégration WebGL et VueJS",
+          "bim": "Expérience pratique en technologies BIM (Building Information Modeling)",
+          "debugging": "Débogage et profilage des performances pour des modèles 3D de grande échelle",
+          "crossplatform": "Intégration multiplateforme et développement d’API"
+        }
+      }
+    },
+    "antarctica": {
+      "title": "Escape Game VR : Antarctica Origins",
+      "part_one": "Un escape game en réalité virtuelle développé en partenariat avec Anthony Paccica, Eugénie Vallier et Nathan Paratt. Antarctica Origins plonge les joueurs dans une aventure de 40 minutes à la découverte d’un mystérieux temple souterrain en Antarctique, rempli d’énigmes et de créatures terrifiantes.",
+      "part_two": "Ce fut ma première expérience dans le développement de jeux, et commencer par la VR a été à la fois un défi et une grande récompense. Anthony nous a proposé l’idée d’un jeu VR, qui m’a immédiatement séduit. Après avoir testé le casque, nous nous sommes rapidement familiarisés avec le processus de développement.",
+      "part_tree": "Nous avons rapidement rencontré les limitations techniques du processeur Android de l’Oculus. Cependant, avec détermination et des solutions créatives, nous avons surmonté ces obstacles et livré un jeu complet, lancé avec succès sur la plateforme de développement Oculus VR.",
+      "role": "Rôle : Développeur Principal",
+      "select": {
+        "select_one": { 
+          "title": "Programmation", 
+          "vr": "Intégration des systèmes d’entrée VR.",
+          "room": "Conception et implémentation des niveaux et énigmes des escape rooms",
+          "character_animations": "Intégration des animations 2D et 3D des personnages",
+          "loot_system": "Conception et implémentation d’un système de récupération et d’inventaire des objets",
+          "ai": "Programmation des comportements IA pour les ennemis",
+          "animations": "Intégration des animations et effets spéciaux 3D/2D",
+          "storytelling": "Mise en œuvre d’une narration environnementale immersive à travers des indices visuels et sonores"
+        },
+        "select_two": { 
+          "title": "Design Sonore", 
+          "sound": "Intégration des sons d’interface et design sonore environnemental",
+          "effects": "Effets sonores de l’interface et design sonore général"
+        },
+        "select_tree": { 
+          "title": "Compétences Acquises", 
+          "collaboration": "Maîtrise du développement VR et des techniques d’optimisation",
+          "management": "Gestion du temps et des tâches pour le développement épisodique",
+          "problem_solving": "Résolution créative pour équilibrer humour et mécaniques de jeu",
+          "mechanics": "Expérience en intégration de mécaniques narratives dans le gameplay"
+        }
+      }
+    }
+  },
+  "skills": "Compétences",
+  "coworkers": {
+    "title": "Collaborateurs",
+    "gautier_text": "J’ai eu l’opportunité de collaborer avec Adrien. Ce fut un échange très bénéfique, tant en termes d’efficacité, de propositions de solutions techniques, que de clarté des systèmes mis en place pour faire avancer la production du jeu !",
+    "gautier_role": "Illustrateur & Concept Artist",
+    "alex_text": "Adrien est un collaborateur dynamique et exceptionnel, engagé dans la mise en œuvre de pratiques d’ingénierie solides. Chez AxeoBIM, il a dynamisé notre équipe de design en remettant en question de manière constructive les solutions proposées, favorisant l’innovation et conduisant à de meilleurs résultats pour les utilisateurs.",
+    "alex_role": "Product Designer",
+    "alexandre_text": "Adrien a su trouver un équilibre parfait entre atteindre ses objectifs dans les délais impartis tout en s’adaptant aux exigences de la production et en identifiant proactivement les éventuels problèmes liés à certaines décisions, proposant des solutions alternatives toujours alignées sur la vision du projet.",
+    "alexandre_role": "Directeur Artistique & Concept Artist",
+    "xavier_text": "Les solides compétences analytiques d’Adrien et sa capacité à collaborer sans effort avec l’équipe ont eu un impact significatif. Un atout précieux pour tout projet nécessitant précision et travail d’équipe.",
+    "xavier_role": "Développeur Web Fullstack"
+  },
+  "hobbies": {
+    "title": "Loisirs & Intérêts",
+    "game_master": {
+      "title": "Maître de Jeu",
+      "subtitle": "Maître de Jeu dans l’Univers D&D :",
+      "part_one": "Depuis 2017, je me suis lancé dans une grande aventure de jeu de rôle, créant plusieurs campagnes, mais la plus importante reste « Les Terres de Baldur » : un jeu de rôle suivant les règles de D&D dans un univers médiéval fantastique entièrement conçu par moi.",
+      "part_two": "J’ai d’abord créé de petites villes et un seul groupe de joueurs participait à ces zones pour la première campagne. Cependant, ma carte s’est rapidement agrandie, le nombre de groupes prenant part aux histoires a augmenté, et je me suis vite retrouvé avec une carte gigantesque, des centaines de PNJ et un monde en constante expansion.",
+      "part_tree": "Cet univers m’accompagne et me façonne encore aujourd’hui, renforçant mon envie de contribuer à des projets créatifs professionnels."
+    },
+    "musician": {
+      "title": "Musicien",
+      "subtitle": "Musicien dans un Groupe de Hard Rock :",
+      "part_one": "Depuis 2021, je fais partie d’un groupe de Hard Rock en tant que guitariste. Je fais de la musique depuis mes 15 ans et j’ai également étudié au Conservatoire de Musique d’Annecy. Pratiquer cette activité en groupe a vraiment enrichi ma réflexion artistique.",
+      "part_two": "J’ai eu le temps de développer mes compétences en écoute et en communication. La musique est devenue une part encore plus intégrante de mes projets, et j’ai appris à apprécier davantage le travail sur le design sonore dans mes créations."
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "name": "Nom",
+    "mail": "E-mail",
+    "message": "Message",
+    "send": "Envoyer"
+  }
+}

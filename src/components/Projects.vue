@@ -1,6 +1,6 @@
 <template>
   <div class="parent">
-    <div style="font-size: 32px; font-weight: bold; text-align : left; width: 60%;">Projects</div>
+    <div style="font-size: 32px; font-weight: bold; text-align : left; width: 60%;">{{ $t('project.title') }}</div>
     <ProjectBrokenAlchemy/>
     <ProjectSaltenpepper/>
     <ProjectAxeoBIM/>

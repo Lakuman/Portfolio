@@ -1,6 +1,6 @@
 <template>
   <div class="parent flex-col">
-    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">Hobbies & Interest</div>
+    <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">{{ $t('hobbies.title') }}</div>
     <div class="flex align pad-top-32 hobbies gap-32">
       <div class="hobby-card flex-col align pad-top-16" v-for="hobby in hobbies" :key="hobby.id">
         <div class="hobby-image">
@@ -30,25 +30,21 @@ export default {
       hobbies: [
         {
           id: 1,
-          title: "Game Master",
+          title: this.$t('hobbies.game_master.title'),
           image: "/images/icons/book.svg", // Remplace par le chemin d'une image
-          description: "Game Master in the D&D Universe: ",
-          details:
-            "Since 2017, I embarked on a major role-playing game adventure, creating several campaigns, but the most significant one remains “The Lands of Baldur”: A role-playing game following the rules of D&D in a Medieval Fantasy universe entirely designed by me.",
-          detailsOne:
-            "I initially created small towns and had a single group of players participate in these areas for the first campaign. However, my map quickly expanded, the number of groups taking part in the stories grew, and I soon found myself with a gigantic map, hundreds of NPCs, and an ever-expanding world.",
-          detailsTwo:
-            "This universe has accompanied and shaped me up to this day, reaffirming my desire to contribute to professional creative projects.",
+          description: this.$t('hobbies.game_master.subtitle'),
+          details: this.$t('hobbies.game_master.part_one'),
+          detailsOne: this.$t('hobbies.game_master.part_two'),
+          detailsTwo: this.$t('hobbies.game_master.part_tree')
           },
         {
           id: 2,
-          title: "Musician",
+          title: this.$t('hobbies.musician.title'),
           image: "/images/icons/guitar.svg", // Remplace par le chemin d'une image
-          description: "Musician in a Hard Rock Band:",
-          details:
-            "Since 2021, I have been part of a Hard Rock band as a guitarist. I’ve been making music since I was 15, and I also studied at the Annecy Conservatory of Music. Practicing this activity in a group has really enhanced my artistic thinking.",
-          detailsOne: "I’ve had the time to develop my listening and communication skills. Music has become an even more integral part of my projects, and I’ve come to appreciate even more working on sound design in my creative endeavors.",
-          },
+          description: this.$t('hobbies.musician.subtitle'),         
+          details: this.$t('hobbies.musician.part_one'),
+          detailsOne: this.$t('hobbies.musician.part_two')
+        },
       ],
     };
   },
