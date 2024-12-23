@@ -75,7 +75,7 @@
       "axeobim": {
         "title": "Viewer AxeoBIM",
         "part_one": "A 3D model viewer developed at Axxone System. The AxeoBIM viewer is a sophisticated BIM tool allowing users to analyze 3D models in IFC and RVT formats. Built with Unity and integrated into the Web AxeoBIM platform via a JS API.",
-        "part_two": "When I was hired at Axxone System, I was tasked with creating this 3D viewer entirely from scratch. I faced numerous technical and algorithmic challenges but ultimately delivered the tool on the AxeoBIM platform by the end of 2023, following several years of development. This was my most complex project, and I was fortunate to rely on the support of Marc-Etienne Barrut (Technical Director) and Grégoire Haze (Software Developer) to bring it to completion.",
+        "part_two": "When I was hired at Axxone System, I was tasked with creating this 3D viewer entirely from scratch. I faced numerous technical and algorithmic challenges but ultimately delivered the tool on the AxeoBIM platform by the end of 2023, following several years of development. This was my most complex project, and I was fortunate to rely on the support of Marc-Etienne Barrut (Technical Director) and Grégoire Hazette (Software Developer) to bring it to completion.",
         "role": "Role : Full stack developer",
         "select": {
           "select_one": { 
@@ -136,11 +136,11 @@
   "coworkers": {
     "title": "Collaborateurs",
     "gautier_text": "I had the opportunity to collaborate with Adrien. It was a very beneficial exchange, both in terms of efficiency, the proposal of technical solutions, and the clarity of the systems put in place to advance the game's production!",
-    "gautier_role": "Illustrator & Concept Artist",
-    "alex_text": "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
-    "alex_role": "Product Designer",
+    "gautier_role": "Artistic Director & Concept Artist",
     "alexandre_text": "Adrien has mastered the perfect balance between achieving his objectives within the given timeframe while adapting to production demands, and proactively identifying potential issues with certain decisions, offering alternative solutions that always align with the project's vision.",
     "alexandre_role": "Artistic Director & Concept Artist",
+    "alex_text": "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
+    "alex_role": "Product Designer",
     "xavier_text": "Adrien's strong analytical skills and ability to collaborate seamlessly with the team made a significant impact. A true asset to any project requiring precision and teamwork",
     "xavier_role": "Fullstack Web Developer"
 
@@ -150,9 +150,9 @@
     "game_master": {
       "title": "Game Master",
       "subtitle": "Game Master in the D&D Universe:",
-      "part_one":"Since 2017, I embarked on a major role-playing game adventure, creating several campaigns, but the most significant one remains “The Lands of Baldur”: A role-playing game following the rules of D&D in a Medieval Fantasy universe entirely designed by me.",
-      "part_two":"I initially created small towns and had a single group of players participate in these areas for the first campaign. However, my map quickly expanded, the number of groups taking part in the stories grew, and I soon found myself with a gigantic map, hundreds of NPCs, and an ever-expanding world.",
-      "part_tree":"This universe has accompanied and shaped me up to this day, reaffirming my desire to contribute to professional creative projects."
+      "part_one": "Since 2017, I embarked on a major role-playing game adventure, creating several campaigns, but the most significant one remains “The Lands of Baldur”: A role-playing game following the rules of D&D in a Medieval Fantasy universe entirely designed by me.",
+      "part_two": "I initially created small towns and had a single group of players participate in these areas for the first campaign. However, my map quickly expanded, the number of groups taking part in the stories grew, and I soon found myself with a gigantic map, hundreds of NPCs, and an ever-expanding world.",
+      "part_tree": "This universe has accompanied and shaped me up to this day, reaffirming my desire to contribute to professional creative projects."
     },
     "musician": {
       "title": "Musician",

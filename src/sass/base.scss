@@ -96,6 +96,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .parent {
   @extend .flex, .align, .gap-32;
@@ -146,7 +147,7 @@ body {
 .coworkers {
   @extend .flex, .align;
   justify-content: center;
-  width: 700%;
+  width: 400%;
   z-index: 2;
   justify-content: center !important;
   align-items: center !important;

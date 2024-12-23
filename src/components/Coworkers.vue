@@ -1,32 +1,31 @@
 <template>
   <div class="align flex" style="font-size: 32px; font-weight: bold; width: 60%;">{{$t('coworkers.title')}}</div>
   <div class="coworkers">
-    <div class="coworkers-content flex-col align gap-64">
+    <div  class="coworkers-content flex-col align gap-64">
       <div class="carousel flex gap-64" :style="{ 'flex-wrap': 'nowrap', transform: `translateX(calc(50% - ${(currentIndex * 315) + 120}px))` }">
-          <div
-            v-for="(feedback, index) in feedbacks"
-            :key="index"
-            class="card"
-            :style="{
-              transform: currentIndex === index ? 'scale(1.2)' : 'scale(0.9)',
-              opacity: currentIndex === index ? 1 : 0.5,
-            }"
-          >
-            <div class="avatar">
-              <!-- Lien LinkedIn autour de l'image -->
-              <a :href="feedback.linkedin" target="_blank" rel="noopener noreferrer">
-                <img :src="feedback.image" :alt="feedback.name" />
-              </a>
-            </div>
-            <p class="quote">"{{ feedback.quote }}"</p>
-            <p class="name">{{ feedback.name }}</p>
-            <p class="position">{{ feedback.position }}</p>
+        <div
+          v-for="(feedback, index) in feedbacks"
+          :key="index"
+          class="card"
+          :style="{
+            transform: currentIndex === index ? 'scale(1.2)' : 'scale(0.9)',
+            opacity: currentIndex === index ? 1 : 0.5,
+          }"
+        >
+          <div class="avatar">
+            <a :href="feedback.linkedin" target="_blank" rel="noopener noreferrer">
+              <img :src="feedback.image" :alt="feedback.name" />
+            </a>
           </div>
+          <p class="quote">"{{ feedback.quote }}"</p>
+          <p class="name">{{ feedback.name }}</p>
+          <p class="position">{{ feedback.position }}</p>
         </div>
-        <div class="flex gap-16">
-          <button class="prev" @click="prevSlide">&#8592;</button>
-          <button class="next" @click="nextSlide">&#8594;</button>
-        </div>
+      </div>
+      <div class="flex gap-16">
+        <button class="prev" @click="prevSlide">&#8592;</button>
+        <button class="next" @click="nextSlide">&#8594;</button>
+      </div>
     </div>
   </div>
 </template>
@@ -36,7 +35,11 @@ export default {
   data() {
     return {
       currentIndex: 0,
-      feedbacks: [
+    };
+  },
+  computed: {
+    feedbacks() {
+      return [
         {
           name: "Gautier FILLIARD",
           position: this.$t('coworkers.gautier_role'),
@@ -65,8 +68,8 @@ export default {
           linkedin: "https://www.linkedin.com/in/chevalier-xavier/",
           quote: this.$t('coworkers.xavier_text'),
         },
-      ],
-    };
+      ];
+    },
   },
   methods: {
     nextSlide() {
@@ -81,7 +84,7 @@ export default {
 </script>
 
 <style scoped>
-.coworkers-content{
+.coworkers-content {
   padding-top: 64px;
   justify-content: center;
   z-index: 2;
@@ -91,8 +94,8 @@ export default {
   overflow: hidden;
   mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
   -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 0));
-
 }
+
 .carousel {
   transition: transform 0.5s ease;
 }

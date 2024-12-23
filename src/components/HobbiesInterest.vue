@@ -12,10 +12,10 @@
           <div class="hobby-details">
             <p>{{ hobby.details }}</p>
           </div>
-          <div :v-if="hobby.detailsOne" class="hobby-details">
+          <div v-if="hobby.detailsOne" class="hobby-details">
             <p>{{ hobby.detailsOne }}</p>
           </div>
-          <div :v-if="hobby.detailsTwo" class="hobby-details">
+          <div v-if="hobby.detailsTwo" class="hobby-details">
             <p>{{ hobby.detailsTwo }}</p>
           </div>
         </div>
@@ -23,11 +23,12 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
-  data() {
-    return {
-      hobbies: [
+  computed: {
+    hobbies() {
+      return [
         {
           id: 1,
           title: this.$t('hobbies.game_master.title'),
@@ -36,17 +37,17 @@ export default {
           details: this.$t('hobbies.game_master.part_one'),
           detailsOne: this.$t('hobbies.game_master.part_two'),
           detailsTwo: this.$t('hobbies.game_master.part_tree')
-          },
+        },
         {
           id: 2,
           title: this.$t('hobbies.musician.title'),
           image: "/images/icons/guitar.svg", // Remplace par le chemin d'une image
-          description: this.$t('hobbies.musician.subtitle'),         
+          description: this.$t('hobbies.musician.subtitle'),
           details: this.$t('hobbies.musician.part_one'),
           detailsOne: this.$t('hobbies.musician.part_two')
         },
-      ],
-    };
+      ];
+    },
   },
 };
 </script>

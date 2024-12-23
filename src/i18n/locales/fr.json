@@ -75,7 +75,7 @@
     "axeobim": {
       "title": "Viewer AxeoBIM",
       "part_one": "Un visualiseur de modèles 3D développé chez Axxone System. Le viewer AxeoBIM est un outil BIM sophistiqué permettant aux utilisateurs d’analyser des modèles 3D aux formats IFC et RVT. Construit avec Unity et intégré à la plateforme Web AxeoBIM via une API JS.",
-      "part_two": "Lorsque j’ai été embauché chez Axxone System, ma mission était de créer ce visualiseur 3D entièrement à partir de zéro. J’ai rencontré de nombreux défis techniques et algorithmiques mais j’ai finalement livré l’outil sur la plateforme AxeoBIM fin 2023, après plusieurs années de développement. Ce fut mon projet le plus complexe, et j’ai eu la chance de pouvoir compter sur le soutien de Marc-Etienne Barrut (Directeur Technique) et Grégoire Haze (Développeur Logiciel) pour le mener à bien.",
+      "part_two": "Lorsque j’ai été embauché chez Axxone System, ma mission était de créer ce visualiseur 3D entièrement à partir de zéro. J’ai rencontré de nombreux défis techniques et algorithmiques mais j’ai finalement livré l’outil sur la plateforme AxeoBIM fin 2023, après plusieurs années de développement. Ce fut mon projet le plus complexe, et j’ai eu la chance de pouvoir compter sur le soutien de Marc-Etienne Barrut (Directeur Technique) et Grégoire Hazette (Développeur Logiciel) pour le mener à bien.",
       "role": "Rôle : Développeur Full Stack",
       "select": {
         "select_one": { 
@@ -136,11 +136,11 @@
   "coworkers": {
     "title": "Collaborateurs",
     "gautier_text": "J’ai eu l’opportunité de collaborer avec Adrien. Ce fut un échange très bénéfique, tant en termes d’efficacité, de propositions de solutions techniques, que de clarté des systèmes mis en place pour faire avancer la production du jeu !",
-    "gautier_role": "Illustrateur & Concept Artist",
-    "alex_text": "Adrien est un collaborateur dynamique et exceptionnel, engagé dans la mise en œuvre de pratiques d’ingénierie solides. Chez AxeoBIM, il a dynamisé notre équipe de design en remettant en question de manière constructive les solutions proposées, favorisant l’innovation et conduisant à de meilleurs résultats pour les utilisateurs.",
-    "alex_role": "Product Designer",
+    "gautier_role": "Directeur Artistique & Concept Artist",
     "alexandre_text": "Adrien a su trouver un équilibre parfait entre atteindre ses objectifs dans les délais impartis tout en s’adaptant aux exigences de la production et en identifiant proactivement les éventuels problèmes liés à certaines décisions, proposant des solutions alternatives toujours alignées sur la vision du projet.",
     "alexandre_role": "Directeur Artistique & Concept Artist",
+    "alex_text": "Adrien est un collaborateur dynamique et exceptionnel, engagé dans la mise en œuvre de pratiques d’ingénierie solides. Chez AxeoBIM, il a dynamisé notre équipe de design en remettant en question de manière constructive les solutions proposées, favorisant l’innovation et conduisant à de meilleurs résultats pour les utilisateurs.",
+    "alex_role": "Product Designer",
     "xavier_text": "Les solides compétences analytiques d’Adrien et sa capacité à collaborer sans effort avec l’équipe ont eu un impact significatif. Un atout précieux pour tout projet nécessitant précision et travail d’équipe.",
     "xavier_role": "Développeur Web Fullstack"
   },
@@ -148,14 +148,14 @@
     "title": "Loisirs & Intérêts",
     "game_master": {
       "title": "Maître de Jeu",
-      "subtitle": "Maître de Jeu dans l’Univers D&D :",
+      "subtitle": "Maître de Jeu dans l’Univers D&D:",
       "part_one": "Depuis 2017, je me suis lancé dans une grande aventure de jeu de rôle, créant plusieurs campagnes, mais la plus importante reste « Les Terres de Baldur » : un jeu de rôle suivant les règles de D&D dans un univers médiéval fantastique entièrement conçu par moi.",
       "part_two": "J’ai d’abord créé de petites villes et un seul groupe de joueurs participait à ces zones pour la première campagne. Cependant, ma carte s’est rapidement agrandie, le nombre de groupes prenant part aux histoires a augmenté, et je me suis vite retrouvé avec une carte gigantesque, des centaines de PNJ et un monde en constante expansion.",
       "part_tree": "Cet univers m’accompagne et me façonne encore aujourd’hui, renforçant mon envie de contribuer à des projets créatifs professionnels."
     },
     "musician": {
       "title": "Musicien",
-      "subtitle": "Musicien dans un Groupe de Hard Rock :",
+      "subtitle": "Musicien dans un Groupe de Hard Rock:",
       "part_one": "Depuis 2021, je fais partie d’un groupe de Hard Rock en tant que guitariste. Je fais de la musique depuis mes 15 ans et j’ai également étudié au Conservatoire de Musique d’Annecy. Pratiquer cette activité en groupe a vraiment enrichi ma réflexion artistique.",
       "part_two": "J’ai eu le temps de développer mes compétences en écoute et en communication. La musique est devenue une part encore plus intégrante de mes projets, et j’ai appris à apprécier davantage le travail sur le design sonore dans mes créations."
     }
