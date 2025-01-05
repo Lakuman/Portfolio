@@ -28,7 +28,7 @@
 
       </div>
       <div class="flex pp" style="min-width: 200px;">
-        <img src="/images/pp.jpg"/>
+        <img src="/images/pp3.jpg"/>
       </div>
     </div>
   </template>
