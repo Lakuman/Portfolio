@@ -49,10 +49,10 @@
         window.open(url, "_blank");
       },
       handleDownloadCV(){
-        const filePath = "/cv/cv.pdf"; // Chemin relatif depuis le dossier public
+        const filePath = this.$t('intro.link'); // Chemin relatif depuis le dossier public
         const link = document.createElement("a");
         link.href = filePath; // URL du fichier
-        link.download = "cv.pdf"; // Nom du fichier téléchargé
+        link.download = this.$t('intro.name_cv'); // Nom du fichier téléchargé
         link.click();
       },
     },

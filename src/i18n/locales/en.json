@@ -5,7 +5,9 @@
     "part_one" : "Over the past six years, I have honed and strengthened my programming skills, refined my working methodology, and developed strong teamwork and communication abilities. These experiences have prepared me to seamlessly integrate into any development team, regardless of its size or focus. My dual expertise as a Game and Web Developer provides me with exceptional versatility in the field.",
     "part_two": "In addition, I have cultivated excellent communication, management, and team leadership skills, positioning me as an ideal candidate to lead web and creative development projects with confidence and efficiency.",
     "download": "Download my resume",
-    "connect": "Let's Connect !"
+    "connect": "Let's Connect !",
+    "link": "/cv/cv_long_fr.pdf",
+    "name_cv": "cv_long_fr.pdf"
   },
   "project": {
       "title": "Projects",

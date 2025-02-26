@@ -1,5 +1,5 @@
 <template>
-  <div class="all-parent flex pad-top-64 pad-bottom-64 gap-32">
+  <div id="all" class="all-parent flex pad-top-64 pad-bottom-64 gap-32">
     <div id="language-switcher">
       <button class="lang-btn" @click="changeLanguage('fr')">
         <img src="/images/icons/french.svg" alt="French" />
@@ -57,16 +57,8 @@
 
 <style scoped>
   #all {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex !important;
-    flex-wrap: wrap;
-    flex-direction: column !important;
     background-color: #041e22;
-    align-items: center !important;
-    justify-content: center;
+    color: #b3d4c5;
   }
   .svg-top-right {
       overflow: hidden;

@@ -5,7 +5,9 @@
     "part_one": "Au cours des six dernières années, j’ai perfectionné et renforcé mes compétences en programmation, affiné ma méthodologie de travail et développé des capacités solides en travail d’équipe et en communication. Ces expériences m’ont préparé à m’intégrer facilement dans n’importe quelle équipe de développement, quelle que soit sa taille ou son domaine. Ma double expertise en tant que Développeur Jeu et Web me confère une polyvalence exceptionnelle dans le domaine.",
     "part_two": "De plus, j’ai cultivé d’excellentes compétences en communication, gestion et leadership d’équipe, faisant de moi un candidat idéal pour diriger des projets de développement web et créatif avec confiance et efficacité.",
     "download": "Télécharger mon CV",
-    "connect": "Connectons-nous !"
+    "connect": "Connectons-nous !",
+    "link": "/cv/cv_long_fr.pdf",
+    "name_cv": "cv_long_fr.pdf"
   },
   "project": {
     "title": "Projets",
