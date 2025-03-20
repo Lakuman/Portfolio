@@ -6,8 +6,8 @@
     "part_two": "In addition, I have cultivated excellent communication, management, and team leadership skills, positioning me as an ideal candidate to lead web and creative development projects with confidence and efficiency.",
     "download": "Download my resume",
     "connect": "Let's Connect !",
-    "link": "/cv/cv_long_en.pdf",
-    "name_cv": "cv_long_en.pdf"
+    "link": "/cv/en - unity.pdf",
+    "name_cv": "cv-en.pdf"
   },
   "project": {
       "title": "Projects",
@@ -136,17 +136,29 @@
   },
   "skills": "Compétences",
   "coworkers": {
-    "title": "Collaborateurs",
-    "gautier_text": "I had the opportunity to collaborate with Adrien. It was a very beneficial exchange, both in terms of efficiency, the proposal of technical solutions, and the clarity of the systems put in place to advance the game's production!",
-    "gautier_role": "Artistic Director & Concept Artist",
-    "alexandre_text": "Adrien has mastered the perfect balance between achieving his objectives within the given timeframe while adapting to production demands, and proactively identifying potential issues with certain decisions, offering alternative solutions that always align with the project's vision.",
-    "alexandre_role": "Artistic Director & Concept Artist",
-    "alex_text": "Adrien is a dynamic and exceptional collaborator, committed to implementing strong engineering practices. At AxeoBIM, he empowered our design team by constructively challenging solutions, fostering innovation, and driving better outcomes for users.",
+    "title": "Coworkers",
+    "gautier_text": "I had the opportunity to collaborate with Adrien. It was a highly beneficial exchange in terms of efficiency, technical solution proposals, and the clarity of the systems put in place to advance the game's production!",
+    "gautier_role": "Art Director & Concept Artist",
+    "alexandre_text": "Adrien managed to find the perfect balance between meeting deadlines while adapting to production requirements and proactively identifying potential issues related to certain decisions, always proposing alternative solutions aligned with the project's vision.",
+    "alexandre_role": "Art Director & Concept Artist",
+    "alex_text": "Adrien is a dynamic and exceptional collaborator, committed to implementing solid engineering practices. At AxeoBIM, he energized our design team by constructively challenging proposed solutions, fostering innovation, and leading to better results for users.",
     "alex_role": "Product Designer",
-    "xavier_text": "Adrien's strong analytical skills and ability to collaborate seamlessly with the team made a significant impact. A true asset to any project requiring precision and teamwork",
-    "xavier_role": "Fullstack Web Developer"
+    "xavier_text": "Adrien’s strong analytical skills and his ability to collaborate effortlessly with the team had a significant impact. A valuable asset for any project requiring precision and teamwork.",
+    "xavier_role": "Fullstack Web Developer",
+    "gregoire_del_text": "I had the opportunity to collaborate with Adrien. It was a highly beneficial exchange in terms of efficiency, technical solution proposals, and the clarity of the systems put in place to advance the game's production!",
+    "gregoire_del_role": "Unity C# Developer",
+    "cleo_text": "Working with Adrien is truly a pleasure. He is an amazing colleague, always willing to share his expertise and offer his help to others. Adrien is kind and attentive, making him someone you can always rely on. I highly recommend Adrien to anyone or any organization looking for a skilled, dedicated collaborator with a strong team spirit.",
+    "cleo_role": "Growth Hacker",
+    "nathan_text": "A fellow student and collaborator on several IT and multimedia projects, Adrien knows how to work quickly and adapt to any situation. He always has ambitious projects and ideas, along with the resources to find solutions. Passionate about development and video games, and always full of ideas!",
+    "nathan_role": "Motion Designer",
+    "mathias_text": "I collaborated with Adrien for over three years on integrating business modules into Axxone System’s Unity viewer. I particularly appreciated his exemplary work ethic, curiosity, sense of organization, and adaptability.",
+    "mathias_role": "Web API Python Developer",
+    "gregoire_haz_text": "I had the chance to work alongside Adrien for three years, developing a WebGL model viewer based on Unity. While I focused on the back-end, handling the conversion of Revit/IFC models into an optimized format for the viewer, Adrien was responsible for the viewer/rendering part.",
+    "gregoire_haz_role": "Fullstack Web Developer",
+    "axelle_text": "I worked with Adrien for five years and greatly appreciated his human qualities, such as his calm demeanor and team spirit. Additionally, Adrien is well-organized, and I enjoyed working with him in the context of his technical support missions. Precise in his responses and clear in his communication, he was a great help to my team.",
+    "axelle_role": "Lead Custom Success Manager"
+},
 
-  },
   "hobbies": {
     "title": "Hobbies & Interest",
     "game_master": {

@@ -1,13 +1,13 @@
 {
   "site_title": "Portfolio Adrien Roussel",
   "intro": {
-    "title": "Développeur de Jeux-Videos/Web situé à Lyon",
+    "title": "Développeur de Web/Jeux-Videoseb situé à Lyon",
     "part_one": "Au cours des six dernières années, j’ai perfectionné et renforcé mes compétences en programmation, affiné ma méthodologie de travail et développé des capacités solides en travail d’équipe et en communication. Ces expériences m’ont préparé à m’intégrer facilement dans n’importe quelle équipe de développement, quelle que soit sa taille ou son domaine. Ma double expertise en tant que Développeur Jeu et Web me confère une polyvalence exceptionnelle dans le domaine.",
     "part_two": "De plus, j’ai cultivé d’excellentes compétences en communication, gestion et leadership d’équipe, faisant de moi un candidat idéal pour diriger des projets de développement web et créatif avec confiance et efficacité.",
     "download": "Télécharger mon CV",
     "connect": "Connectons-nous !",
-    "link": "/cv/cv_long_fr.pdf",
-    "name_cv": "cv_long_fr.pdf"
+    "link": "/cv/fr - unity.pdf",
+    "name_cv": "cv-fr.pdf"
   },
   "project": {
     "title": "Projets",
@@ -144,10 +144,22 @@
     "alex_text": "Adrien est un collaborateur dynamique et exceptionnel, engagé dans la mise en œuvre de pratiques d’ingénierie solides. Chez AxeoBIM, il a dynamisé notre équipe de design en remettant en question de manière constructive les solutions proposées, favorisant l’innovation et conduisant à de meilleurs résultats pour les utilisateurs.",
     "alex_role": "Product Designer",
     "xavier_text": "Les solides compétences analytiques d’Adrien et sa capacité à collaborer sans effort avec l’équipe ont eu un impact significatif. Un atout précieux pour tout projet nécessitant précision et travail d’équipe.",
-    "xavier_role": "Développeur Web Fullstack"
+    "xavier_role": "Développeur Web Fullstack",
+    "gregoire_del_text": "J’ai eu l’opportunité de collaborer avec Adrien. Ce fut un échange très bénéfique, tant en termes d’efficacité, de propositions de solutions techniques, que de clarté des systèmes mis en place pour faire avancer la production du jeu !",
+    "gregoire_del_role": "Développeur Unity C#",
+    "cleo_text": "Travailler avec Adrien est un véritable plaisir. C’est un collègue incroyable, toujours prêt à partager son expertise et à offrir son aide aux autres. Adrien est bienveillant et à l’écoute, ce qui fait de lui quelqu’un sur qui on peut toujours compter. Je recommande vivement Adrien à toute personne ou organisation recherchant un collaborateur compétent, investi et doté d’un véritable esprit d’équipe.",
+    "cleo_role": "Growth Hackeuse",
+    "nathan_text": "Camarade d'études et collaborateur sur plusieurs projets en informatique et multimédias, Adrien sait travailler vite et s'adapter en toutes circonstances. Il a toujours des projets et des idées ambitieuses et les ressources pour trouver des solutions. Passionné par le développement et le jeu vidéo, et toujours plein d'idées !",
+    "nathan_role": "Motion Designer",
+    "mathias_text": "J'ai collaboré avec Adrien pendant plus de trois ans sur l'intégration de modules métier dans le viewer Unity d'Axxone System. J'ai particulièrement apprécié son éthique de travail exemplaire, sa curiosité, son sens de l'organisation et sa capacité d'adaptation.",
+    "mathias_role": "Développeur Web API Python",
+    "gregoire_haz_text": "J'ai eu l'occasion de travailler aux côtés d'Adrien pendant trois ans, dans le cadre du développement d'une visionneuse de maquettes WebGL basée sur Unity. Tandis que je me concentrais sur la partie back-end, en charge de la conversion des maquettes Revit/IFC en un format optimisé pour le viewer, Adrien était responsable de la partie viewer/rendu.",
+    "gregoire_haz_role": "Développeur Web Fullstack",
+    "axelle_text": "J'ai travaillé pendant 5 ans avec Adrien, dont j'ai apprécié les qualités humaines (calme, esprit d'équipe). Adrien est de plus organisé, et j'ai apprécié de travailler avec lui dans le cadre de ses missions de support technique. Précis dans ses réponses et clair dans sa communication, il a été d'une grande aide pour mon équipe.",
+    "axelle_role": "Responsable Pôle CSM"
   },
   "hobbies": {
-    "title": "Loisirs & Intérêts",
+    "title": "Loisirs & Intérêts",  
     "game_master": {
       "title": "Maître de Jeu",
       "subtitle": "Maître de Jeu dans l’Univers D&D:",
